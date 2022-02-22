@@ -134,7 +134,7 @@ int practice7(int trigger_val){
 
 // practice 10 2022/2/22
 int practice10(int trigger_val){
-    cout << "--- practice 7 following ---\n";
+    cout << "--- practice 10 following ---\n";
     array<double, 10> running_results{};
     cout << "insert your 1st running result: \n";
     cin >> running_results[0];
@@ -148,15 +148,17 @@ int practice10(int trigger_val){
     double avg_result = (running_results[0] + running_results[1] + running_results[2]) / 3;
     cout << "Your average running results, avg_result = " << avg_result << "s" << endl;
 
+    cout << "--- practice 10 passed ---\n";
     return 0;
 }
 
 int main(){
     // practice1(1); // practice 1&2 passed
     // practice3(1); // practice 3&4 passed
-    // practice5(1); // practice 5 passed
+    // practice5(1); // practice 5&9 passed
     // practice8(1); // practice 7&8 passed
-    practice10(1);
+    practice10(1); // practice 10 passed
+    cout << "\n=== All practice passed. 2022/2/22 ===\n";
     return 0;
 }
 
