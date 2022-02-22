@@ -72,10 +72,22 @@ int practice5(int trigger_val){
     cout << "snack price: " << snack.price << endl;
     cout << "snack energy: " << snack.energy << endl;
 
-    cout << "--- practice 5 passed ---\n";
+    cout << "--- practice 5 passed ---\n\n";
 
+    cout << "--- practice 9 following ---\n";
     candy_bar *candy9 = new candy_bar;
+    cout << "insert snack2 brand: \n";
+    getline(cin, candy9->brand);
+    cout << "insert snack2 price: \n";
+    cin >> candy9->price;
+    cout << "insert snack2 energy: \n";
+    cin >> candy9->energy;
 
+    cout << "candy9 brand: " << candy9->brand << endl;
+    cout << "candy9 price: " << candy9->price << endl;
+    cout << "candy9 energy: " << candy9->energy << endl;
+    delete candy9;
+    cout << "--- practice 9 passed ---\n";
 
     return 0;
 }
@@ -120,8 +132,21 @@ int practice7(int trigger_val){
     return 0;
 }
 
-// practice 9
-int practice9(int trigger_val){
+// practice 10 2022/2/22
+int practice10(int trigger_val){
+    cout << "--- practice 7 following ---\n";
+    array<double, 10> running_results{};
+    cout << "insert your 1st running result: \n";
+    cin >> running_results[0];
+    cout << "insert your 2nd running result: \n";
+    cin >> running_results[1];
+    cout << "insert your 3rd running result: \n";
+    cin >> running_results[2];
+    cout << "Your running results are listed below: \n1st result = " << running_results[0] << "s" << endl
+         << "2nd result = " << running_results[1] << "s" << endl
+         << "3rd result = " << running_results[2] << "s" << endl;
+    double avg_result = (running_results[0] + running_results[1] + running_results[2]) / 3;
+    cout << "Your average running results, avg_result = " << avg_result << "s" << endl;
 
     return 0;
 }
@@ -131,6 +156,7 @@ int main(){
     // practice3(1); // practice 3&4 passed
     // practice5(1); // practice 5 passed
     // practice8(1); // practice 7&8 passed
+    practice10(1);
     return 0;
 }
 
