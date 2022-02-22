@@ -121,6 +121,10 @@ int practice7(int trigger_val){
 }
 
 // practice 9
+int practice9(int trigger_val){
+
+    return 0;
+}
 
 int main(){
     // practice1(1); // practice 1&2 passed
