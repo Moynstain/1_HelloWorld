@@ -21,7 +21,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -42,7 +43,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -51,7 +53,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "1_HelloWorld::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-1_HelloWorld-Debug-d4db86260df3291916a3.json",
+					"jsonFile" : "target-1_HelloWorld-Debug-dc45d6c3e9a75c7b5114.json",
 					"name" : "1_HelloWorld",
 					"projectIndex" : 0
 				},
@@ -95,6 +97,13 @@
 					"id" : "7_Chap4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-7_Chap4-Debug-fc2f1b43fe2a8a282675.json",
 					"name" : "7_Chap4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "8_Chap4_Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-8_Chap4_Practice-Debug-cabd32a15891f000b65f.json",
+					"name" : "8_Chap4_Practice",
 					"projectIndex" : 0
 				}
 			]

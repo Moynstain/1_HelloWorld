@@ -5,6 +5,8 @@
 #include "iostream"
 #include "cstdio"
 #include "cstring"
+#include "vector"
+#include "array"
 using namespace std;
 
 // Chap 4.2 char类
@@ -261,9 +263,38 @@ int mix_type(int test_val){
     cout << "p2 is: " << p2 << endl;
     cout << "*p2 is: " << &s2 << endl;
     cout << "&s2 is: " << &s2 << endl;
-    cout << p2->year;
+    cout << p2->year << endl;
 
+    cout << "---following book code---\n";
+    years trio[3]; // array of 3 structures
+    trio[0].year = 2003;
+    trio[1].year = 2004;
+    cout << trio->year << endl;
+    const years *arp[3] = {&s1, &s2, &s3};
+    cout << arp[1]->year << endl; // arp[1] = &s2, so output 1999
+    const years **ppa = arp;
+    auto ppb = ppa;
+    cout << (*ppa)->year << endl; // *ppa = arp[0], so output 1998
+    cout << (*(ppb+1))->year << endl; // *(ppb + 1) = *(ppa + 1) = arp[1], so output 1999
 
+    cout << "=== Chap 4.9 MIXTYPE passed ===\n";
+    cout << "=== 2022/2/18 ===";
+    return 0;
+}
+
+// Chap 4.10 Vector 2022/2/18
+int Vector(int test_val) {
+    vector<int> vi;
+    int n;
+    // cin >> n;
+    array<int, 5> a{};
+    array<double, 5> d{1, 2, 3, 4, 5};
+    cout << d[2] << endl;
+    cout << d[-2] << endl;
+    cout << d.at(-2) << endl;
+
+    cout << "=== Chap 4.10 VECTOR passed ===\n";
+    cout << "=== 2022/2/18 ===";
     return 0;
 }
 
@@ -280,5 +311,6 @@ int main(){
     // Enum(1);
     // Address(1);
     // ptr_math(1);
-    mix_type(1);
+    // mix_type(1);
+    Vector(1);
 }
