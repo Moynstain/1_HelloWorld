@@ -158,7 +158,7 @@ int main(){
     // practice5(1); // practice 5&9 passed
     // practice8(1); // practice 7&8 passed
     practice10(1); // practice 10 passed
-    cout << "\n=== All practice passed. 2022/2/22 ===\n";
+    cout << "\n=== All practice passed. 2022/2/22 === \n";
     return 0;
 }
 
