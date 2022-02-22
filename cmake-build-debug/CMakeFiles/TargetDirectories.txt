@@ -1,0 +1,9 @@
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/7_Chap4.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/6_Chap3_Practice.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/5_Chap3.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/4_Chap2_Practice.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/3_MathFunctionCalling.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/2_getinfo.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/1_HelloWorld.dir

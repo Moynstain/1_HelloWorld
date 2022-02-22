@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "1_HelloWorld",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1_HelloWorld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_HelloWorld-Debug-d4db86260df3291916a3.json",
+					"name" : "1_HelloWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_getinfo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_getinfo-Debug-fa69ac4cbf44c3317c40.json",
+					"name" : "2_getinfo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3_MathFunctionCalling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3_MathFunctionCalling-Debug-a1c01bbfc2a485ac6660.json",
+					"name" : "3_MathFunctionCalling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_Chap2_Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_Chap2_Practice-Debug-1f6435c65b8aad644a2f.json",
+					"name" : "4_Chap2_Practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "5_Chap3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-5_Chap3-Debug-d449117357752a90770f.json",
+					"name" : "5_Chap3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "6_Chap3_Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-6_Chap3_Practice-Debug-dc2cf5c0db5e9cd99dcc.json",
+					"name" : "6_Chap3_Practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7_Chap4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7_Chap4-Debug-fc2f1b43fe2a8a282675.json",
+					"name" : "7_Chap4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug",
+		"source" : "/Users/moynstain/CLionProjects/1.HelloWorld"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
