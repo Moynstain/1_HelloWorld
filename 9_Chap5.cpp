@@ -2,7 +2,7 @@
 // Created by Moynstain_MBA on 2022/2/22.
 //
 #include "iostream"
-
+#include "ctime"
 using namespace std;
 
 // for loop 2022/2/22
@@ -63,6 +63,7 @@ int for_loop(int val){
     a++; ++b;
     cout << "a = " << a << ", b = " << b << endl;
 
+    // following char compare in for-loop 2022/2/28
     cout << "\n--- following char compare in for-loop ---\n";
     char test = 'z';
     cout << test ++;
@@ -75,7 +76,7 @@ int for_loop(int val){
         word[0] = ch;
     }
 
-    // 换用string作比较，而非char
+    // 换用string作比较，而非char 2022/2/28
     cout << "\n--- following string compare in for-loop ---\n";
     string word_cmp = "?ate";
     for (char ch = 'a'; word_cmp != "mate"; ch++){
@@ -83,7 +84,7 @@ int for_loop(int val){
         word_cmp[0] = ch;
     }
 
-    // following while-loop
+    // following while-loop 2022/2/28
     cout << "\n--- following while-loop ---\n";
     cout << "Please insert your name: \n";
     string name;
@@ -95,6 +96,28 @@ int for_loop(int val){
         j++;
     }
 
+    // following waiting function 2022/2/28
+    // add #include <ctime> for the code
+    cout << "\n--- following waiting function ---\n";
+    cout << "Enter the delay time in second: ";
+    float secs;
+    cin >> secs;
+    clock_t delay = secs * CLOCKS_PER_SEC; // convert to clock ticks
+    cout << "starting \a\n";
+    clock_t start = clock();
+    while ((clock() - start) < delay)
+        ;
+    cout << "done\a\n";
+
+    // following do-while loop 2022/2/28
+    cout << "\n--- following do-while loop ---\n";
+    int fav_num;
+    cout << "Guess what my favorite number is? (1-10)\n";
+    cout << "Insert a number:\n";
+    do{
+        cin >> fav_num;
+    }while(fav_num != 8);
+    cout << "Bingo! It's 8！\n";
 
     return 0;
 }
