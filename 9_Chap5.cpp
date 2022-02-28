@@ -119,6 +119,45 @@ int for_loop(int val){
     }while(fav_num != 8);
     cout << "Bingo! It's 8！\n";
 
+    char ch;
+    int count = 0;
+    cout << "Enter characters; enter # to quit:\n";
+    cin >> ch;
+    //getline(cin, ch);
+    while (ch != '#'){
+        cout << ch;
+        ++count;
+        cin >> ch;
+    }
+    cout << endl << count << " characters read\n";
+
+    // following double for-loop 2022/2/28
+    cout << "\n--- following double for-loop ---\n";
+    const int city_num = 5;
+    const int year_num = 4;
+    const char *cities[city_num] = {
+            "City 1",
+            "City 2",
+            "City 3",
+            "City 4",
+            "City 5"
+    };
+    int max_temp[year_num][city_num] = {
+            {12, 23, 34, 45, 56},
+            {11, 22, 33, 44, 55},
+            {99, 88, 77, 66, 55},
+            {23, 34,654, 45, 29}
+    };
+    cout << "|| Maximum temperatures for 2017 - 2022 ||\n\n";
+    for (int city = 0; city < city_num; ++city){
+        cout << cities[city] << ":\t";
+        for (int year = 0; year < year_num; ++year)
+            cout << max_temp[year][city] << "\t";
+
+        cout << endl;
+    }
+
+
     return 0;
 }
 
