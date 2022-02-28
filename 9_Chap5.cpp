@@ -45,12 +45,12 @@ int for_loop(int val){
 
     // following read letters in string with for loop
     cout << "--- next, mirror change ---\nEnter a word: \n";
-    string word = "Robotics save the world.";
+    string sentence = "Robotics save the world.";
     // getline(cin, word);
     // display letters in reverse order
-    cout << word << "  |  ";
-    for (int i = word.size() - 1; i >= 0; i--){
-        cout << word[i];
+    cout << sentence << "  |  ";
+    for (int i = sentence.size() - 1; i >= 0; i--){
+        cout << sentence[i];
     }
     cout << "\nFinished, bye.\n";
     int a = 20, b = 20;
@@ -62,6 +62,39 @@ int for_loop(int val){
     cout << "a = " << a << ", b = " << b << endl;
     a++; ++b;
     cout << "a = " << a << ", b = " << b << endl;
+
+    cout << "\n--- following char compare in for-loop ---\n";
+    char test = 'z';
+    cout << test ++;
+    cout << test ++;
+    cout << test ++ << endl;
+    char word[5] = "zate";
+    // word = "?ate";
+    for (char ch = '?'; strcmp(word, "mate"); ch++){
+        cout << word << endl;
+        word[0] = ch;
+    }
+
+    // 换用string作比较，而非char
+    cout << "\n--- following string compare in for-loop ---\n";
+    string word_cmp = "?ate";
+    for (char ch = 'a'; word_cmp != "mate"; ch++){
+        cout << word_cmp << endl;
+        word_cmp[0] = ch;
+    }
+
+    // following while-loop
+    cout << "\n--- following while-loop ---\n";
+    cout << "Please insert your name: \n";
+    string name;
+    getline(cin, name);
+    cout << "Your name has been transformed to such format: \n";
+    int j = 0;
+    while (name[j] != '\0'){
+        cout << name[j] << ": " << int(name[j]) << endl;
+        j++;
+    }
+
 
     return 0;
 }

@@ -64,6 +64,37 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 9_Chap5
+
+
+#############################################
+# Order-only phony target for 9_Chap5
+
+build cmake_object_order_depends_target_9_Chap5: phony || CMakeFiles/9_Chap5.dir
+
+build CMakeFiles/9_Chap5.dir/9_Chap5.cpp.o: CXX_COMPILER__9_Chap5_Debug /Users/moynstain/CLionProjects/1.HelloWorld/9_Chap5.cpp || cmake_object_order_depends_target_9_Chap5
+  DEP_FILE = CMakeFiles/9_Chap5.dir/9_Chap5.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/9_Chap5.dir
+  OBJECT_FILE_DIR = CMakeFiles/9_Chap5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9_Chap5
+
+
+#############################################
+# Link the executable 9_Chap5
+
+build 9_Chap5: CXX_EXECUTABLE_LINKER__9_Chap5_Debug CMakeFiles/9_Chap5.dir/9_Chap5.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/9_Chap5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 9_Chap5
+  TARGET_PDB = 9_Chap5.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 8_Chap4_Practice
 
 
@@ -370,7 +401,7 @@ build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_Hello
 #############################################
 # Folder: /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
 
-build all: phony 8_Chap4_Practice 7_Chap4 6_Chap3_Practice 5_Chap3 4_Chap2_Practice 3_MathFunctionCalling 2_getinfo 1_HelloWorld
+build all: phony 9_Chap5 8_Chap4_Practice 7_Chap4 6_Chap3_Practice 5_Chap3 4_Chap2_Practice 3_MathFunctionCalling 2_getinfo 1_HelloWorld
 
 # =============================================================================
 # Built-in targets
