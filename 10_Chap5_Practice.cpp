@@ -3,6 +3,9 @@
 //
 #include "iostream"
 #include "ios"
+#include "string"
+#include "ctime"
+#include "stdlib.h"
 using namespace std;
 
 // practice 1 2022/2/28
@@ -86,9 +89,61 @@ int practice4(int test_val){
     return 0;
 }
 
+// practice 5 2022/3/1
+int practice5(int test_val){
+    cout << "=== following practice 4 ===\n";
+    string months[12] = {
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+    };
+    int books[12];
+    int sum = 0;
+    for (int i = 1; i <= 12; i++){
+        cout << "Enter the books sale amount for " << months[i-1] << ": ";
+        cin >> books[i-1];
+        sum = sum + books[i-1];
+        cout << books[i-1] << endl;
+    }
+    cout << "The books sale amount of the year are: " << sum << ".\n";
 
+    cout << "=== practice 5 passed ===\n";
+    return 0;
+}
 
+// practice 5 2022/3/1
+int practice6(int test_val){
+    cout << "=== following practice 6 ===\n";
+    string book_all[3][12];
+    int book_sale[3][12];
+    int sum[3] = {0, 0, 0};
 
+    for (int i = 1; i <=3; i++){
+        for (int j = 1; j<= 12; j++){
+            book_all[i-1][j] = "Y" + to_string(i) + "M" + to_string(j);
+            book_sale[i-1][j] = int(random()%50);
+            cout << book_all[i-1][j] << ":\t" << book_sale[i-1][j] << "\t";
+            sum[i-1] = sum[i-1] + book_sale[i-1][j];
+        }
+        cout << endl << "Sales in Y" + to_string(i-1) + ": " << sum[i-1] << endl;
+    }
+    int sales_all = sum[0] + sum[1] + sum[2];
+    cout << endl << "Sales in 3 years: " << sales_all << endl;
+
+    cout << "=== practice 6 passed ===\n";
+    return 0;
+}
+
+// practice 7 2022/3/1
 
 
 int main(){
@@ -96,6 +151,8 @@ int main(){
     // practice1(1); // passed 2022/2/28
     // practice2(1); // passed 2022/3/1
     // practice3(1); // passed 2022/3/1
-    practice4(1);
+    // practice4(1); // passed 2022/3/1
+    // practice5(1); // passed 2022/3/1
+    practice6(1);
     return 0;
 }
