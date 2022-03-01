@@ -42,18 +42,6 @@ include CMakeFiles/rules.ninja
 cmake_ninja_workdir = /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/
 
 #############################################
-# Utility command for rebuild_cache
-
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/moynstain/CLionProjects/1.HelloWorld -B/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
-
-
-#############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
@@ -62,6 +50,37 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10_Chap5_Practice
+
+
+#############################################
+# Order-only phony target for 10_Chap5_Practice
+
+build cmake_object_order_depends_target_10_Chap5_Practice: phony || CMakeFiles/10_Chap5_Practice.dir
+
+build CMakeFiles/10_Chap5_Practice.dir/10_Chap5_Practice.cpp.o: CXX_COMPILER__10_Chap5_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/10_Chap5_Practice.cpp || cmake_object_order_depends_target_10_Chap5_Practice
+  DEP_FILE = CMakeFiles/10_Chap5_Practice.dir/10_Chap5_Practice.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/10_Chap5_Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles/10_Chap5_Practice.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10_Chap5_Practice
+
+
+#############################################
+# Link the executable 10_Chap5_Practice
+
+build 10_Chap5_Practice: CXX_EXECUTABLE_LINKER__10_Chap5_Practice_Debug CMakeFiles/10_Chap5_Practice.dir/10_Chap5_Practice.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/10_Chap5_Practice.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10_Chap5_Practice
+  TARGET_PDB = 10_Chap5_Practice.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 9_Chap5
@@ -156,6 +175,49 @@ build 7_Chap4: CXX_EXECUTABLE_LINKER__7_Chap4_Debug CMakeFiles/7_Chap4.dir/7_Cha
   TARGET_FILE = 7_Chap4
   TARGET_PDB = 7_Chap4.dbg
 
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/moynstain/CLionProjects/1.HelloWorld -B/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4_Chap2_Practice
+
+
+#############################################
+# Order-only phony target for 4_Chap2_Practice
+
+build cmake_object_order_depends_target_4_Chap2_Practice: phony || CMakeFiles/4_Chap2_Practice.dir
+
+build CMakeFiles/4_Chap2_Practice.dir/4_Chap2_Practice.cpp.o: CXX_COMPILER__4_Chap2_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/4_Chap2_Practice.cpp || cmake_object_order_depends_target_4_Chap2_Practice
+  DEP_FILE = CMakeFiles/4_Chap2_Practice.dir/4_Chap2_Practice.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/4_Chap2_Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles/4_Chap2_Practice.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4_Chap2_Practice
+
+
+#############################################
+# Link the executable 4_Chap2_Practice
+
+build 4_Chap2_Practice: CXX_EXECUTABLE_LINKER__4_Chap2_Practice_Debug CMakeFiles/4_Chap2_Practice.dir/4_Chap2_Practice.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/4_Chap2_Practice.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4_Chap2_Practice
+  TARGET_PDB = 4_Chap2_Practice.dbg
+
 # =============================================================================
 # Object build statements for EXECUTABLE target 6_Chap3_Practice
 
@@ -217,37 +279,6 @@ build 5_Chap3: CXX_EXECUTABLE_LINKER__5_Chap3_Debug CMakeFiles/5_Chap3.dir/5_Cha
   PRE_LINK = :
   TARGET_FILE = 5_Chap3
   TARGET_PDB = 5_Chap3.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 4_Chap2_Practice
-
-
-#############################################
-# Order-only phony target for 4_Chap2_Practice
-
-build cmake_object_order_depends_target_4_Chap2_Practice: phony || CMakeFiles/4_Chap2_Practice.dir
-
-build CMakeFiles/4_Chap2_Practice.dir/4_Chap2_Practice.cpp.o: CXX_COMPILER__4_Chap2_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/4_Chap2_Practice.cpp || cmake_object_order_depends_target_4_Chap2_Practice
-  DEP_FILE = CMakeFiles/4_Chap2_Practice.dir/4_Chap2_Practice.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/4_Chap2_Practice.dir
-  OBJECT_FILE_DIR = CMakeFiles/4_Chap2_Practice.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 4_Chap2_Practice
-
-
-#############################################
-# Link the executable 4_Chap2_Practice
-
-build 4_Chap2_Practice: CXX_EXECUTABLE_LINKER__4_Chap2_Practice_Debug CMakeFiles/4_Chap2_Practice.dir/4_Chap2_Practice.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
-  OBJECT_DIR = CMakeFiles/4_Chap2_Practice.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 4_Chap2_Practice
-  TARGET_PDB = 4_Chap2_Practice.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 3_MathFunctionCalling
@@ -374,6 +405,12 @@ build CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o: CXX_COMPILER__1_HelloWorld_Debu
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
 
+build CMakeFiles/1_HelloWorld.dir/10_Chap5_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/10_Chap5_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/10_Chap5_Practice.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 1_HelloWorld
@@ -382,7 +419,7 @@ build CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o: CXX_COMPILER__1_HelloWorld_Debu
 #############################################
 # Link the executable 1_HelloWorld
 
-build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_HelloWorld.dir/main.cpp.o CMakeFiles/1_HelloWorld.dir/2_getinfo.cpp.o CMakeFiles/1_HelloWorld.dir/3_MathFunctionCalling.cpp.o CMakeFiles/1_HelloWorld.dir/4_Chap2_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/5_Chap3.cpp.o CMakeFiles/1_HelloWorld.dir/6_Chap3_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/7_Chap4.cpp.o CMakeFiles/1_HelloWorld.dir/8_Chap4_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o
+build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_HelloWorld.dir/main.cpp.o CMakeFiles/1_HelloWorld.dir/2_getinfo.cpp.o CMakeFiles/1_HelloWorld.dir/3_MathFunctionCalling.cpp.o CMakeFiles/1_HelloWorld.dir/4_Chap2_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/5_Chap3.cpp.o CMakeFiles/1_HelloWorld.dir/6_Chap3_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/7_Chap4.cpp.o CMakeFiles/1_HelloWorld.dir/8_Chap4_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o CMakeFiles/1_HelloWorld.dir/10_Chap5_Practice.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
   POST_BUILD = :
@@ -401,7 +438,7 @@ build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_Hello
 #############################################
 # Folder: /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
 
-build all: phony 9_Chap5 8_Chap4_Practice 7_Chap4 6_Chap3_Practice 5_Chap3 4_Chap2_Practice 3_MathFunctionCalling 2_getinfo 1_HelloWorld
+build all: phony 10_Chap5_Practice 9_Chap5 8_Chap4_Practice 7_Chap4 4_Chap2_Practice 6_Chap3_Practice 5_Chap3 3_MathFunctionCalling 2_getinfo 1_HelloWorld
 
 # =============================================================================
 # Built-in targets
