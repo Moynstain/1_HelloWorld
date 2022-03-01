@@ -6,6 +6,7 @@
 #include "string"
 #include "ctime"
 #include "stdlib.h"
+#include "cstring"
 using namespace std;
 
 // practice 1 2022/2/28
@@ -144,6 +145,96 @@ int practice6(int test_val){
 }
 
 // practice 7 2022/3/1
+int practice7(int test_val){
+    cout << "=== following practice 7 ===\n";
+    struct car{
+            string brand;
+            int year;
+    };
+    // car car_user;
+
+    int car_number;
+    cout << "How many cars do you wish to catalog?";
+    cin >> car_number;
+    cin.get();
+    car car_user[car_number];
+    // car car_catalog[car_number];
+    // car_user = car_user[car_number];
+    for (int i = 1; i <= car_number; i++){
+        cout << "Car #" + to_string(i) + ": \n";
+        cout << "Please enter the brand: ";
+        getline(cin, car_user[i].brand);
+        cout << "Please enter the year: ";
+        cin >> car_user[i].year;
+        cin.get();
+    }
+    cout << "\nHere's your collection: \n";
+    for (int j = 1; j <= car_number; j++){
+        cout << car_user[j].year << "\t" << car_user[j].brand << endl;
+    }
+
+    cout << "=== practice 7 passed ===\n";
+    return 0;
+}
+
+// practice 8 2022/3/1
+int practice8(int test_val){
+    cout << "=== following practice 8 ===\n";
+
+    char type[30];
+    cout << "Enter words (to stop, type the word 'done')\n";
+    cin >> type;
+    int count = 0;
+    for (int i = 1; strcmp(type, "done"); i++){
+        cin >> type;
+        ++count;
+    }
+    cout << "You entered a total of " << count << " words.\n";
+    cout << "=== practice 8 passed ===\n";
+    return 0;
+}
+
+// practice 9 2022/3/1
+int practice9(int test_val){
+    cout << "=== following practice 9 ===\n";
+    string type;
+    cout << "Enter words (to stop, type the word 'done')\n";
+    cin >> type;
+    // getline(cin, type);
+    int count = 0;
+    for (int i = 1; type != "done"; i++){
+        cin >> type;
+        ++count;
+    }
+    cout << "You entered a total of " << count << " words.\n";
+
+    cout << "=== practice 9 passed ===\n";
+    return 0;
+}
+
+// practice 10 2022/3/1
+int practice10(int test_val){
+    cout << "=== following practice 10 ===\n";
+
+    cout << "Enter number of rows: ";
+    int row;
+    cin >> row;
+    // cin.get();
+    int column = row;
+    char  matrix[row][column];
+    for (int i = 1; i <= row; i++){
+        for (int j = 0; j < column; j++){
+            matrix[i][j] = '.';
+        }
+        for (int k = 1; k <= i ; k++){
+            matrix[i][column - k] = '*';
+        }
+        cout << matrix[i] << endl;
+    }
+
+    cout << "=== practice 10 passed ===\n";
+    return 0;
+}
 
 
 int main(){
@@ -153,6 +244,10 @@ int main(){
     // practice3(1); // passed 2022/3/1
     // practice4(1); // passed 2022/3/1
     // practice5(1); // passed 2022/3/1
-    practice6(1);
+    // practice6(1); // passed 2022/3/1
+    // practice7(1); // passed 2022/3/1
+    // practice8(1); // passed 2022/3/1
+    // practice9(1); // passed 2022/3/1
+    practice10(1);
     return 0;
 }
