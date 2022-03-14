@@ -52,6 +52,68 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 15_Chap8_InlineFunc
+
+
+#############################################
+# Order-only phony target for 15_Chap8_InlineFunc
+
+build cmake_object_order_depends_target_15_Chap8_InlineFunc: phony || CMakeFiles/15_Chap8_InlineFunc.dir
+
+build CMakeFiles/15_Chap8_InlineFunc.dir/15_Chap8_InlineFunc.cpp.o: CXX_COMPILER__15_Chap8_InlineFunc_Debug /Users/moynstain/CLionProjects/1.HelloWorld/15_Chap8_InlineFunc.cpp || cmake_object_order_depends_target_15_Chap8_InlineFunc
+  DEP_FILE = CMakeFiles/15_Chap8_InlineFunc.dir/15_Chap8_InlineFunc.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/15_Chap8_InlineFunc.dir
+  OBJECT_FILE_DIR = CMakeFiles/15_Chap8_InlineFunc.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 15_Chap8_InlineFunc
+
+
+#############################################
+# Link the executable 15_Chap8_InlineFunc
+
+build 15_Chap8_InlineFunc: CXX_EXECUTABLE_LINKER__15_Chap8_InlineFunc_Debug CMakeFiles/15_Chap8_InlineFunc.dir/15_Chap8_InlineFunc.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/15_Chap8_InlineFunc.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 15_Chap8_InlineFunc
+  TARGET_PDB = 15_Chap8_InlineFunc.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 14_Chap7_Practice
+
+
+#############################################
+# Order-only phony target for 14_Chap7_Practice
+
+build cmake_object_order_depends_target_14_Chap7_Practice: phony || CMakeFiles/14_Chap7_Practice.dir
+
+build CMakeFiles/14_Chap7_Practice.dir/14_Chap7_Practice.cpp.o: CXX_COMPILER__14_Chap7_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/14_Chap7_Practice.cpp || cmake_object_order_depends_target_14_Chap7_Practice
+  DEP_FILE = CMakeFiles/14_Chap7_Practice.dir/14_Chap7_Practice.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/14_Chap7_Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles/14_Chap7_Practice.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 14_Chap7_Practice
+
+
+#############################################
+# Link the executable 14_Chap7_Practice
+
+build 14_Chap7_Practice: CXX_EXECUTABLE_LINKER__14_Chap7_Practice_Debug CMakeFiles/14_Chap7_Practice.dir/14_Chap7_Practice.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/14_Chap7_Practice.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 14_Chap7_Practice
+  TARGET_PDB = 14_Chap7_Practice.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 13_Chap7_Function
 
 
@@ -522,6 +584,18 @@ build CMakeFiles/1_HelloWorld.dir/13_Chap7_Function.cpp.o: CXX_COMPILER__1_Hello
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
 
+build CMakeFiles/1_HelloWorld.dir/14_Chap7_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/14_Chap7_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/14_Chap7_Practice.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+
+build CMakeFiles/1_HelloWorld.dir/15_Chap8_InlineFunc.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/15_Chap8_InlineFunc.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/15_Chap8_InlineFunc.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 1_HelloWorld
@@ -530,7 +604,7 @@ build CMakeFiles/1_HelloWorld.dir/13_Chap7_Function.cpp.o: CXX_COMPILER__1_Hello
 #############################################
 # Link the executable 1_HelloWorld
 
-build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_HelloWorld.dir/main.cpp.o CMakeFiles/1_HelloWorld.dir/2_getinfo.cpp.o CMakeFiles/1_HelloWorld.dir/3_MathFunctionCalling.cpp.o CMakeFiles/1_HelloWorld.dir/4_Chap2_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/5_Chap3.cpp.o CMakeFiles/1_HelloWorld.dir/6_Chap3_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/7_Chap4.cpp.o CMakeFiles/1_HelloWorld.dir/8_Chap4_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o CMakeFiles/1_HelloWorld.dir/10_Chap5_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/11_Chap6.cpp.o CMakeFiles/1_HelloWorld.dir/12_Chap6_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/13_Chap7_Function.cpp.o
+build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_HelloWorld.dir/main.cpp.o CMakeFiles/1_HelloWorld.dir/2_getinfo.cpp.o CMakeFiles/1_HelloWorld.dir/3_MathFunctionCalling.cpp.o CMakeFiles/1_HelloWorld.dir/4_Chap2_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/5_Chap3.cpp.o CMakeFiles/1_HelloWorld.dir/6_Chap3_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/7_Chap4.cpp.o CMakeFiles/1_HelloWorld.dir/8_Chap4_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o CMakeFiles/1_HelloWorld.dir/10_Chap5_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/11_Chap6.cpp.o CMakeFiles/1_HelloWorld.dir/12_Chap6_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/13_Chap7_Function.cpp.o CMakeFiles/1_HelloWorld.dir/14_Chap7_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/15_Chap8_InlineFunc.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
   POST_BUILD = :
@@ -549,7 +623,7 @@ build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_Hello
 #############################################
 # Folder: /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
 
-build all: phony 13_Chap7_Function 12_Chap6_Practice 11_Chap6 10_Chap5_Practice 9_Chap5 8_Chap4_Practice 7_Chap4 4_Chap2_Practice 6_Chap3_Practice 5_Chap3 3_MathFunctionCalling 2_getinfo 1_HelloWorld
+build all: phony 15_Chap8_InlineFunc 14_Chap7_Practice 13_Chap7_Function 12_Chap6_Practice 11_Chap6 10_Chap5_Practice 9_Chap5 8_Chap4_Practice 7_Chap4 4_Chap2_Practice 6_Chap3_Practice 5_Chap3 3_MathFunctionCalling 2_getinfo 1_HelloWorld
 
 # =============================================================================
 # Built-in targets

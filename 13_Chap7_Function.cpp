@@ -32,8 +32,11 @@ int lotto(){
     return 0;
 }
 
+
+//
 int main(){
     lotto(); // example 7.4 passed 2022/3/7
+
 
     return 0;
 }

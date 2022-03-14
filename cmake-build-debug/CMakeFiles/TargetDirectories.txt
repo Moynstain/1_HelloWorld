@@ -1,4 +1,6 @@
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/15_Chap8_InlineFunc.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/14_Chap7_Practice.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/13_Chap7_Function.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/12_Chap6_Practice.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/11_Chap6.dir

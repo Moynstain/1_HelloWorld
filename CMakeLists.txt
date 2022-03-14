@@ -3,7 +3,7 @@ project(1_HelloWorld)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(1_HelloWorld main.cpp 2_getinfo.cpp 3_MathFunctionCalling.cpp 4_Chap2_Practice.cpp 5_Chap3.cpp 6_Chap3_Practice.cpp 7_Chap4.cpp 8_Chap4_Practice.cpp 9_Chap5.cpp 10_Chap5_Practice.cpp 11_Chap6.cpp 12_Chap6_Practice.cpp 13_Chap7_Function.cpp)
+add_executable(1_HelloWorld main.cpp 2_getinfo.cpp 3_MathFunctionCalling.cpp 4_Chap2_Practice.cpp 5_Chap3.cpp 6_Chap3_Practice.cpp 7_Chap4.cpp 8_Chap4_Practice.cpp 9_Chap5.cpp 10_Chap5_Practice.cpp 11_Chap6.cpp 12_Chap6_Practice.cpp 13_Chap7_Function.cpp 14_Chap7_Practice.cpp 15_Chap8_InlineFunc.cpp)
 
 add_executable(2_getinfo 2_getinfo.cpp)
 add_executable(3_MathFunctionCalling 3_MathFunctionCalling.cpp)
@@ -17,3 +17,5 @@ add_executable(10_Chap5_Practice 10_Chap5_Practice.cpp)
 add_executable(11_Chap6 11_Chap6.cpp)
 add_executable(12_Chap6_Practice 12_Chap6_Practice.cpp)
 add_executable(13_Chap7_Function 13_Chap7_Function.cpp)
+add_executable(14_Chap7_Practice 14_Chap7_Practice.cpp)
+add_executable(15_Chap8_InlineFunc 15_Chap8_InlineFunc.cpp)
