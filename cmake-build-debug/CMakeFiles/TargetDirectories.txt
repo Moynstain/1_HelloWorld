@@ -1,10 +1,13 @@
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/CS106L_1_Intro_to_Cpp.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/glove_test_1.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/15_Chap8_InlineFunc.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/14_Chap7_Practice.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/13_Chap7_Function.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/12_Chap6_Practice.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/11_Chap6.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/10_Chap5_Practice.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/quadratic.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/9_Chap5.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/8_Chap4_Practice.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/7_Chap4.dir
@@ -12,6 +15,9 @@
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/4_Chap2_Practice.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/6_Chap3_Practice.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/5_Chap3.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/istreams.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/quadratic_soln.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/3_MathFunctionCalling.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/2_getinfo.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/istreams_soln.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/1_HelloWorld.dir
