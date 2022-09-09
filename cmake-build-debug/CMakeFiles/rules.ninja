@@ -22,6 +22,63 @@ rule CUSTOM_COMMAND
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__13_Chap7_Function_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__13_Chap7_Function_Debug
+  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__r_spaghetti_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__r_spaghetti_Debug
+  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__9_Chap5_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__9_Chap5_Debug
+  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__CS106L_1_Intro_to_Cpp_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -33,6 +90,25 @@ rule CXX_COMPILER__CS106L_1_Intro_to_Cpp_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__CS106L_1_Intro_to_Cpp_Debug
+  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__2_getinfo_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__2_getinfo_Debug
   command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -60,7 +136,7 @@ rule CXX_EXECUTABLE_LINKER__glove_test_1_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__15_Chap8_InlineFunc_Debug
+rule CXX_COMPILER__3_MathFunctionCalling_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -70,45 +146,7 @@ rule CXX_COMPILER__15_Chap8_InlineFunc_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__15_Chap8_InlineFunc_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
-  description = Linking CXX executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
-rule CXX_COMPILER__14_Chap7_Practice_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX executable.
-
-rule CXX_EXECUTABLE_LINKER__14_Chap7_Practice_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
-  description = Linking CXX executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
-rule CXX_COMPILER__13_Chap7_Function_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX executable.
-
-rule CXX_EXECUTABLE_LINKER__13_Chap7_Function_Debug
+rule CXX_EXECUTABLE_LINKER__3_MathFunctionCalling_Debug
   command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -128,6 +166,63 @@ rule CXX_COMPILER__12_Chap6_Practice_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__12_Chap6_Practice_Debug
+  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__15_Chap8_InlineFunc_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__15_Chap8_InlineFunc_Debug
+  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__8_Chap4_Practice_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__8_Chap4_Practice_Debug
+  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__14_Chap7_Practice_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__14_Chap7_Practice_Debug
   command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -185,44 +280,6 @@ rule CXX_COMPILER__quadratic_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__quadratic_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
-  description = Linking CXX executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
-rule CXX_COMPILER__9_Chap5_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX executable.
-
-rule CXX_EXECUTABLE_LINKER__9_Chap5_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
-  description = Linking CXX executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
-rule CXX_COMPILER__8_Chap4_Practice_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX executable.
-
-rule CXX_EXECUTABLE_LINKER__8_Chap4_Practice_Debug
   command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -337,44 +394,6 @@ rule CXX_COMPILER__quadratic_soln_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__quadratic_soln_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
-  description = Linking CXX executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
-rule CXX_COMPILER__3_MathFunctionCalling_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX executable.
-
-rule CXX_EXECUTABLE_LINKER__3_MathFunctionCalling_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
-  description = Linking CXX executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
-rule CXX_COMPILER__2_getinfo_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX executable.
-
-rule CXX_EXECUTABLE_LINKER__2_getinfo_Debug
   command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT

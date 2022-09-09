@@ -6,6 +6,7 @@
 #include "cstring"
 #include "sstream"
 #include "fstream"
+#include "vector"
 using std::cout;
 using std::string;
 using std::cin;
@@ -47,5 +48,22 @@ int main(){
     string func_name = "Jas";
     cout << judgementCall(15, func_name, 1) << endl;
 
+    std::pair<int, string> numSuffix1 = {1, "st"};
+    cout << numSuffix1.second << endl;
+
+    int x{5};
+    cout << x;
+
+    std::vector<int> original = {1, 2};
+    auto copy = original;
+    auto& ref = original;
+    original.push_back(3);
+    copy.push_back(4);
+    ref.push_back(5);
+
+
+    cout << "original: " << original[0] << endl;
+    cout << "copy: " << copy.data() << endl;
+    cout << "ref: " << ref.data() << endl;
     return 0;
 }

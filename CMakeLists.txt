@@ -27,3 +27,5 @@ add_executable(quadratic_soln CS106L_Code_Example/2_typesStructs/quadratic_soln.
 add_executable(istreams CS106L_Code_Example/3_streams/Istreams/istreams.cpp)
 add_executable(istreams_soln CS106L_Code_Example/3_streams/Istreams/istreams_soln.cpp)
 # target_include_directories(istreams_soln /Users/moynstain/CLionProjects/1.HelloWorld)
+add_executable(r_spaghetti CS106L_Code_Example/3pt5_initsRefs/References/r_spaghetti.cpp)
+add_executable(vector_time_trials CS106L_Code_Example/4_containers/vector_time_trials.cpp)
