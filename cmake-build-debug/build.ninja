@@ -52,6 +52,141 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target chap1_carrots
+
+
+#############################################
+# Order-only phony target for chap1_carrots
+
+build cmake_object_order_depends_target_chap1_carrots: phony || CMakeFiles/chap1_carrots.dir
+
+build CMakeFiles/chap1_carrots.dir/cppPrimerPlus_6th_edition/Chap1/chap1_carrots.cpp.o: CXX_COMPILER__chap1_carrots_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap1/chap1_carrots.cpp || cmake_object_order_depends_target_chap1_carrots
+  DEP_FILE = CMakeFiles/chap1_carrots.dir/cppPrimerPlus_6th_edition/Chap1/chap1_carrots.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap1_carrots.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap1_carrots.dir/cppPrimerPlus_6th_edition/Chap1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap1_carrots
+
+
+#############################################
+# Link the executable chap1_carrots
+
+build chap1_carrots: CXX_EXECUTABLE_LINKER__chap1_carrots_Debug CMakeFiles/chap1_carrots.dir/cppPrimerPlus_6th_edition/Chap1/chap1_carrots.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap1_carrots.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap1_carrots
+  TARGET_PDB = chap1_carrots.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap1_myfirst
+
+
+#############################################
+# Order-only phony target for chap1_myfirst
+
+build cmake_object_order_depends_target_chap1_myfirst: phony || CMakeFiles/chap1_myfirst.dir
+
+build CMakeFiles/chap1_myfirst.dir/cppPrimerPlus_6th_edition/Chap1/chap1_myfirst.cpp.o: CXX_COMPILER__chap1_myfirst_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap1/chap1_myfirst.cpp || cmake_object_order_depends_target_chap1_myfirst
+  DEP_FILE = CMakeFiles/chap1_myfirst.dir/cppPrimerPlus_6th_edition/Chap1/chap1_myfirst.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap1_myfirst.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap1_myfirst.dir/cppPrimerPlus_6th_edition/Chap1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap1_myfirst
+
+
+#############################################
+# Link the executable chap1_myfirst
+
+build chap1_myfirst: CXX_EXECUTABLE_LINKER__chap1_myfirst_Debug CMakeFiles/chap1_myfirst.dir/cppPrimerPlus_6th_edition/Chap1/chap1_myfirst.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap1_myfirst.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap1_myfirst
+  TARGET_PDB = chap1_myfirst.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10_Chap5_Practice
+
+
+#############################################
+# Order-only phony target for 10_Chap5_Practice
+
+build cmake_object_order_depends_target_10_Chap5_Practice: phony || CMakeFiles/10_Chap5_Practice.dir
+
+build CMakeFiles/10_Chap5_Practice.dir/cppPrimerPlus_6th_edition/10_Chap5_Practice.cpp.o: CXX_COMPILER__10_Chap5_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/10_Chap5_Practice.cpp || cmake_object_order_depends_target_10_Chap5_Practice
+  DEP_FILE = CMakeFiles/10_Chap5_Practice.dir/cppPrimerPlus_6th_edition/10_Chap5_Practice.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/10_Chap5_Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles/10_Chap5_Practice.dir/cppPrimerPlus_6th_edition
+
+build CMakeFiles/10_Chap5_Practice.dir/DirectoryTest/glove_test_1.cpp.o: CXX_COMPILER__10_Chap5_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/DirectoryTest/glove_test_1.cpp || cmake_object_order_depends_target_10_Chap5_Practice
+  DEP_FILE = CMakeFiles/10_Chap5_Practice.dir/DirectoryTest/glove_test_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/10_Chap5_Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles/10_Chap5_Practice.dir/DirectoryTest
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10_Chap5_Practice
+
+
+#############################################
+# Link the executable 10_Chap5_Practice
+
+build 10_Chap5_Practice: CXX_EXECUTABLE_LINKER__10_Chap5_Practice_Debug CMakeFiles/10_Chap5_Practice.dir/cppPrimerPlus_6th_edition/10_Chap5_Practice.cpp.o CMakeFiles/10_Chap5_Practice.dir/DirectoryTest/glove_test_1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/10_Chap5_Practice.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10_Chap5_Practice
+  TARGET_PDB = 10_Chap5_Practice.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vector_time_trials
+
+
+#############################################
+# Order-only phony target for vector_time_trials
+
+build cmake_object_order_depends_target_vector_time_trials: phony || CMakeFiles/vector_time_trials.dir
+
+build CMakeFiles/vector_time_trials.dir/CS106L_Code_Example/4_containers/vector_time_trials.cpp.o: CXX_COMPILER__vector_time_trials_Debug /Users/moynstain/CLionProjects/1.HelloWorld/CS106L_Code_Example/4_containers/vector_time_trials.cpp || cmake_object_order_depends_target_vector_time_trials
+  DEP_FILE = CMakeFiles/vector_time_trials.dir/CS106L_Code_Example/4_containers/vector_time_trials.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/vector_time_trials.dir
+  OBJECT_FILE_DIR = CMakeFiles/vector_time_trials.dir/CS106L_Code_Example/4_containers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector_time_trials
+
+
+#############################################
+# Link the executable vector_time_trials
+
+build vector_time_trials: CXX_EXECUTABLE_LINKER__vector_time_trials_Debug CMakeFiles/vector_time_trials.dir/CS106L_Code_Example/4_containers/vector_time_trials.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/vector_time_trials.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = vector_time_trials
+  TARGET_PDB = vector_time_trials.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 13_Chap7_Function
 
 
@@ -60,12 +195,12 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_13_Chap7_Function: phony || CMakeFiles/13_Chap7_Function.dir
 
-build CMakeFiles/13_Chap7_Function.dir/13_Chap7_Function.cpp.o: CXX_COMPILER__13_Chap7_Function_Debug /Users/moynstain/CLionProjects/1.HelloWorld/13_Chap7_Function.cpp || cmake_object_order_depends_target_13_Chap7_Function
-  DEP_FILE = CMakeFiles/13_Chap7_Function.dir/13_Chap7_Function.cpp.o.d
+build CMakeFiles/13_Chap7_Function.dir/cppPrimerPlus_6th_edition/13_Chap7_Function.cpp.o: CXX_COMPILER__13_Chap7_Function_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/13_Chap7_Function.cpp || cmake_object_order_depends_target_13_Chap7_Function
+  DEP_FILE = CMakeFiles/13_Chap7_Function.dir/cppPrimerPlus_6th_edition/13_Chap7_Function.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/13_Chap7_Function.dir
-  OBJECT_FILE_DIR = CMakeFiles/13_Chap7_Function.dir
+  OBJECT_FILE_DIR = CMakeFiles/13_Chap7_Function.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -75,7 +210,7 @@ build CMakeFiles/13_Chap7_Function.dir/13_Chap7_Function.cpp.o: CXX_COMPILER__13
 #############################################
 # Link the executable 13_Chap7_Function
 
-build 13_Chap7_Function: CXX_EXECUTABLE_LINKER__13_Chap7_Function_Debug CMakeFiles/13_Chap7_Function.dir/13_Chap7_Function.cpp.o
+build 13_Chap7_Function: CXX_EXECUTABLE_LINKER__13_Chap7_Function_Debug CMakeFiles/13_Chap7_Function.dir/cppPrimerPlus_6th_edition/13_Chap7_Function.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/13_Chap7_Function.dir
   POST_BUILD = :
@@ -124,12 +259,12 @@ build r_spaghetti: CXX_EXECUTABLE_LINKER__r_spaghetti_Debug CMakeFiles/r_spaghet
 
 build cmake_object_order_depends_target_9_Chap5: phony || CMakeFiles/9_Chap5.dir
 
-build CMakeFiles/9_Chap5.dir/9_Chap5.cpp.o: CXX_COMPILER__9_Chap5_Debug /Users/moynstain/CLionProjects/1.HelloWorld/9_Chap5.cpp || cmake_object_order_depends_target_9_Chap5
-  DEP_FILE = CMakeFiles/9_Chap5.dir/9_Chap5.cpp.o.d
+build CMakeFiles/9_Chap5.dir/cppPrimerPlus_6th_edition/9_Chap5.cpp.o: CXX_COMPILER__9_Chap5_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/9_Chap5.cpp || cmake_object_order_depends_target_9_Chap5
+  DEP_FILE = CMakeFiles/9_Chap5.dir/cppPrimerPlus_6th_edition/9_Chap5.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/9_Chap5.dir
-  OBJECT_FILE_DIR = CMakeFiles/9_Chap5.dir
+  OBJECT_FILE_DIR = CMakeFiles/9_Chap5.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -139,7 +274,7 @@ build CMakeFiles/9_Chap5.dir/9_Chap5.cpp.o: CXX_COMPILER__9_Chap5_Debug /Users/m
 #############################################
 # Link the executable 9_Chap5
 
-build 9_Chap5: CXX_EXECUTABLE_LINKER__9_Chap5_Debug CMakeFiles/9_Chap5.dir/9_Chap5.cpp.o
+build 9_Chap5: CXX_EXECUTABLE_LINKER__9_Chap5_Debug CMakeFiles/9_Chap5.dir/cppPrimerPlus_6th_edition/9_Chap5.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/9_Chap5.dir
   POST_BUILD = :
@@ -200,12 +335,12 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_2_getinfo: phony || CMakeFiles/2_getinfo.dir
 
-build CMakeFiles/2_getinfo.dir/2_getinfo.cpp.o: CXX_COMPILER__2_getinfo_Debug /Users/moynstain/CLionProjects/1.HelloWorld/2_getinfo.cpp || cmake_object_order_depends_target_2_getinfo
-  DEP_FILE = CMakeFiles/2_getinfo.dir/2_getinfo.cpp.o.d
+build CMakeFiles/2_getinfo.dir/cppPrimerPlus_6th_edition/2_getinfo.cpp.o: CXX_COMPILER__2_getinfo_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/2_getinfo.cpp || cmake_object_order_depends_target_2_getinfo
+  DEP_FILE = CMakeFiles/2_getinfo.dir/cppPrimerPlus_6th_edition/2_getinfo.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/2_getinfo.dir
-  OBJECT_FILE_DIR = CMakeFiles/2_getinfo.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_getinfo.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -215,7 +350,7 @@ build CMakeFiles/2_getinfo.dir/2_getinfo.cpp.o: CXX_COMPILER__2_getinfo_Debug /U
 #############################################
 # Link the executable 2_getinfo
 
-build 2_getinfo: CXX_EXECUTABLE_LINKER__2_getinfo_Debug CMakeFiles/2_getinfo.dir/2_getinfo.cpp.o
+build 2_getinfo: CXX_EXECUTABLE_LINKER__2_getinfo_Debug CMakeFiles/2_getinfo.dir/cppPrimerPlus_6th_edition/2_getinfo.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/2_getinfo.dir
   POST_BUILD = :
@@ -264,12 +399,12 @@ build glove_test_1: CXX_EXECUTABLE_LINKER__glove_test_1_Debug CMakeFiles/glove_t
 
 build cmake_object_order_depends_target_3_MathFunctionCalling: phony || CMakeFiles/3_MathFunctionCalling.dir
 
-build CMakeFiles/3_MathFunctionCalling.dir/3_MathFunctionCalling.cpp.o: CXX_COMPILER__3_MathFunctionCalling_Debug /Users/moynstain/CLionProjects/1.HelloWorld/3_MathFunctionCalling.cpp || cmake_object_order_depends_target_3_MathFunctionCalling
-  DEP_FILE = CMakeFiles/3_MathFunctionCalling.dir/3_MathFunctionCalling.cpp.o.d
+build CMakeFiles/3_MathFunctionCalling.dir/cppPrimerPlus_6th_edition/3_MathFunctionCalling.cpp.o: CXX_COMPILER__3_MathFunctionCalling_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/3_MathFunctionCalling.cpp || cmake_object_order_depends_target_3_MathFunctionCalling
+  DEP_FILE = CMakeFiles/3_MathFunctionCalling.dir/cppPrimerPlus_6th_edition/3_MathFunctionCalling.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/3_MathFunctionCalling.dir
-  OBJECT_FILE_DIR = CMakeFiles/3_MathFunctionCalling.dir
+  OBJECT_FILE_DIR = CMakeFiles/3_MathFunctionCalling.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -279,7 +414,7 @@ build CMakeFiles/3_MathFunctionCalling.dir/3_MathFunctionCalling.cpp.o: CXX_COMP
 #############################################
 # Link the executable 3_MathFunctionCalling
 
-build 3_MathFunctionCalling: CXX_EXECUTABLE_LINKER__3_MathFunctionCalling_Debug CMakeFiles/3_MathFunctionCalling.dir/3_MathFunctionCalling.cpp.o
+build 3_MathFunctionCalling: CXX_EXECUTABLE_LINKER__3_MathFunctionCalling_Debug CMakeFiles/3_MathFunctionCalling.dir/cppPrimerPlus_6th_edition/3_MathFunctionCalling.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/3_MathFunctionCalling.dir
   POST_BUILD = :
@@ -296,12 +431,12 @@ build 3_MathFunctionCalling: CXX_EXECUTABLE_LINKER__3_MathFunctionCalling_Debug 
 
 build cmake_object_order_depends_target_12_Chap6_Practice: phony || CMakeFiles/12_Chap6_Practice.dir
 
-build CMakeFiles/12_Chap6_Practice.dir/12_Chap6_Practice.cpp.o: CXX_COMPILER__12_Chap6_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/12_Chap6_Practice.cpp || cmake_object_order_depends_target_12_Chap6_Practice
-  DEP_FILE = CMakeFiles/12_Chap6_Practice.dir/12_Chap6_Practice.cpp.o.d
+build CMakeFiles/12_Chap6_Practice.dir/cppPrimerPlus_6th_edition/12_Chap6_Practice.cpp.o: CXX_COMPILER__12_Chap6_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/12_Chap6_Practice.cpp || cmake_object_order_depends_target_12_Chap6_Practice
+  DEP_FILE = CMakeFiles/12_Chap6_Practice.dir/cppPrimerPlus_6th_edition/12_Chap6_Practice.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/12_Chap6_Practice.dir
-  OBJECT_FILE_DIR = CMakeFiles/12_Chap6_Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles/12_Chap6_Practice.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -311,7 +446,7 @@ build CMakeFiles/12_Chap6_Practice.dir/12_Chap6_Practice.cpp.o: CXX_COMPILER__12
 #############################################
 # Link the executable 12_Chap6_Practice
 
-build 12_Chap6_Practice: CXX_EXECUTABLE_LINKER__12_Chap6_Practice_Debug CMakeFiles/12_Chap6_Practice.dir/12_Chap6_Practice.cpp.o
+build 12_Chap6_Practice: CXX_EXECUTABLE_LINKER__12_Chap6_Practice_Debug CMakeFiles/12_Chap6_Practice.dir/cppPrimerPlus_6th_edition/12_Chap6_Practice.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/12_Chap6_Practice.dir
   POST_BUILD = :
@@ -328,12 +463,12 @@ build 12_Chap6_Practice: CXX_EXECUTABLE_LINKER__12_Chap6_Practice_Debug CMakeFil
 
 build cmake_object_order_depends_target_15_Chap8_InlineFunc: phony || CMakeFiles/15_Chap8_InlineFunc.dir
 
-build CMakeFiles/15_Chap8_InlineFunc.dir/15_Chap8_InlineFunc.cpp.o: CXX_COMPILER__15_Chap8_InlineFunc_Debug /Users/moynstain/CLionProjects/1.HelloWorld/15_Chap8_InlineFunc.cpp || cmake_object_order_depends_target_15_Chap8_InlineFunc
-  DEP_FILE = CMakeFiles/15_Chap8_InlineFunc.dir/15_Chap8_InlineFunc.cpp.o.d
+build CMakeFiles/15_Chap8_InlineFunc.dir/cppPrimerPlus_6th_edition/15_Chap8_InlineFunc.cpp.o: CXX_COMPILER__15_Chap8_InlineFunc_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/15_Chap8_InlineFunc.cpp || cmake_object_order_depends_target_15_Chap8_InlineFunc
+  DEP_FILE = CMakeFiles/15_Chap8_InlineFunc.dir/cppPrimerPlus_6th_edition/15_Chap8_InlineFunc.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/15_Chap8_InlineFunc.dir
-  OBJECT_FILE_DIR = CMakeFiles/15_Chap8_InlineFunc.dir
+  OBJECT_FILE_DIR = CMakeFiles/15_Chap8_InlineFunc.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -343,7 +478,7 @@ build CMakeFiles/15_Chap8_InlineFunc.dir/15_Chap8_InlineFunc.cpp.o: CXX_COMPILER
 #############################################
 # Link the executable 15_Chap8_InlineFunc
 
-build 15_Chap8_InlineFunc: CXX_EXECUTABLE_LINKER__15_Chap8_InlineFunc_Debug CMakeFiles/15_Chap8_InlineFunc.dir/15_Chap8_InlineFunc.cpp.o
+build 15_Chap8_InlineFunc: CXX_EXECUTABLE_LINKER__15_Chap8_InlineFunc_Debug CMakeFiles/15_Chap8_InlineFunc.dir/cppPrimerPlus_6th_edition/15_Chap8_InlineFunc.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/15_Chap8_InlineFunc.dir
   POST_BUILD = :
@@ -360,12 +495,12 @@ build 15_Chap8_InlineFunc: CXX_EXECUTABLE_LINKER__15_Chap8_InlineFunc_Debug CMak
 
 build cmake_object_order_depends_target_8_Chap4_Practice: phony || CMakeFiles/8_Chap4_Practice.dir
 
-build CMakeFiles/8_Chap4_Practice.dir/8_Chap4_Practice.cpp.o: CXX_COMPILER__8_Chap4_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/8_Chap4_Practice.cpp || cmake_object_order_depends_target_8_Chap4_Practice
-  DEP_FILE = CMakeFiles/8_Chap4_Practice.dir/8_Chap4_Practice.cpp.o.d
+build CMakeFiles/8_Chap4_Practice.dir/cppPrimerPlus_6th_edition/8_Chap4_Practice.cpp.o: CXX_COMPILER__8_Chap4_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/8_Chap4_Practice.cpp || cmake_object_order_depends_target_8_Chap4_Practice
+  DEP_FILE = CMakeFiles/8_Chap4_Practice.dir/cppPrimerPlus_6th_edition/8_Chap4_Practice.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/8_Chap4_Practice.dir
-  OBJECT_FILE_DIR = CMakeFiles/8_Chap4_Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles/8_Chap4_Practice.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -375,7 +510,7 @@ build CMakeFiles/8_Chap4_Practice.dir/8_Chap4_Practice.cpp.o: CXX_COMPILER__8_Ch
 #############################################
 # Link the executable 8_Chap4_Practice
 
-build 8_Chap4_Practice: CXX_EXECUTABLE_LINKER__8_Chap4_Practice_Debug CMakeFiles/8_Chap4_Practice.dir/8_Chap4_Practice.cpp.o
+build 8_Chap4_Practice: CXX_EXECUTABLE_LINKER__8_Chap4_Practice_Debug CMakeFiles/8_Chap4_Practice.dir/cppPrimerPlus_6th_edition/8_Chap4_Practice.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/8_Chap4_Practice.dir
   POST_BUILD = :
@@ -392,12 +527,12 @@ build 8_Chap4_Practice: CXX_EXECUTABLE_LINKER__8_Chap4_Practice_Debug CMakeFiles
 
 build cmake_object_order_depends_target_14_Chap7_Practice: phony || CMakeFiles/14_Chap7_Practice.dir
 
-build CMakeFiles/14_Chap7_Practice.dir/14_Chap7_Practice.cpp.o: CXX_COMPILER__14_Chap7_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/14_Chap7_Practice.cpp || cmake_object_order_depends_target_14_Chap7_Practice
-  DEP_FILE = CMakeFiles/14_Chap7_Practice.dir/14_Chap7_Practice.cpp.o.d
+build CMakeFiles/14_Chap7_Practice.dir/cppPrimerPlus_6th_edition/14_Chap7_Practice.cpp.o: CXX_COMPILER__14_Chap7_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/14_Chap7_Practice.cpp || cmake_object_order_depends_target_14_Chap7_Practice
+  DEP_FILE = CMakeFiles/14_Chap7_Practice.dir/cppPrimerPlus_6th_edition/14_Chap7_Practice.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/14_Chap7_Practice.dir
-  OBJECT_FILE_DIR = CMakeFiles/14_Chap7_Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles/14_Chap7_Practice.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -407,7 +542,7 @@ build CMakeFiles/14_Chap7_Practice.dir/14_Chap7_Practice.cpp.o: CXX_COMPILER__14
 #############################################
 # Link the executable 14_Chap7_Practice
 
-build 14_Chap7_Practice: CXX_EXECUTABLE_LINKER__14_Chap7_Practice_Debug CMakeFiles/14_Chap7_Practice.dir/14_Chap7_Practice.cpp.o
+build 14_Chap7_Practice: CXX_EXECUTABLE_LINKER__14_Chap7_Practice_Debug CMakeFiles/14_Chap7_Practice.dir/cppPrimerPlus_6th_edition/14_Chap7_Practice.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/14_Chap7_Practice.dir
   POST_BUILD = :
@@ -424,12 +559,12 @@ build 14_Chap7_Practice: CXX_EXECUTABLE_LINKER__14_Chap7_Practice_Debug CMakeFil
 
 build cmake_object_order_depends_target_11_Chap6: phony || CMakeFiles/11_Chap6.dir
 
-build CMakeFiles/11_Chap6.dir/11_Chap6.cpp.o: CXX_COMPILER__11_Chap6_Debug /Users/moynstain/CLionProjects/1.HelloWorld/11_Chap6.cpp || cmake_object_order_depends_target_11_Chap6
-  DEP_FILE = CMakeFiles/11_Chap6.dir/11_Chap6.cpp.o.d
+build CMakeFiles/11_Chap6.dir/cppPrimerPlus_6th_edition/11_Chap6.cpp.o: CXX_COMPILER__11_Chap6_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/11_Chap6.cpp || cmake_object_order_depends_target_11_Chap6
+  DEP_FILE = CMakeFiles/11_Chap6.dir/cppPrimerPlus_6th_edition/11_Chap6.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/11_Chap6.dir
-  OBJECT_FILE_DIR = CMakeFiles/11_Chap6.dir
+  OBJECT_FILE_DIR = CMakeFiles/11_Chap6.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -439,52 +574,13 @@ build CMakeFiles/11_Chap6.dir/11_Chap6.cpp.o: CXX_COMPILER__11_Chap6_Debug /User
 #############################################
 # Link the executable 11_Chap6
 
-build 11_Chap6: CXX_EXECUTABLE_LINKER__11_Chap6_Debug CMakeFiles/11_Chap6.dir/11_Chap6.cpp.o
+build 11_Chap6: CXX_EXECUTABLE_LINKER__11_Chap6_Debug CMakeFiles/11_Chap6.dir/cppPrimerPlus_6th_edition/11_Chap6.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/11_Chap6.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = 11_Chap6
   TARGET_PDB = 11_Chap6.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 10_Chap5_Practice
-
-
-#############################################
-# Order-only phony target for 10_Chap5_Practice
-
-build cmake_object_order_depends_target_10_Chap5_Practice: phony || CMakeFiles/10_Chap5_Practice.dir
-
-build CMakeFiles/10_Chap5_Practice.dir/10_Chap5_Practice.cpp.o: CXX_COMPILER__10_Chap5_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/10_Chap5_Practice.cpp || cmake_object_order_depends_target_10_Chap5_Practice
-  DEP_FILE = CMakeFiles/10_Chap5_Practice.dir/10_Chap5_Practice.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
-  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
-  OBJECT_DIR = CMakeFiles/10_Chap5_Practice.dir
-  OBJECT_FILE_DIR = CMakeFiles/10_Chap5_Practice.dir
-
-build CMakeFiles/10_Chap5_Practice.dir/DirectoryTest/glove_test_1.cpp.o: CXX_COMPILER__10_Chap5_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/DirectoryTest/glove_test_1.cpp || cmake_object_order_depends_target_10_Chap5_Practice
-  DEP_FILE = CMakeFiles/10_Chap5_Practice.dir/DirectoryTest/glove_test_1.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
-  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
-  OBJECT_DIR = CMakeFiles/10_Chap5_Practice.dir
-  OBJECT_FILE_DIR = CMakeFiles/10_Chap5_Practice.dir/DirectoryTest
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 10_Chap5_Practice
-
-
-#############################################
-# Link the executable 10_Chap5_Practice
-
-build 10_Chap5_Practice: CXX_EXECUTABLE_LINKER__10_Chap5_Practice_Debug CMakeFiles/10_Chap5_Practice.dir/10_Chap5_Practice.cpp.o CMakeFiles/10_Chap5_Practice.dir/DirectoryTest/glove_test_1.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
-  OBJECT_DIR = CMakeFiles/10_Chap5_Practice.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10_Chap5_Practice
-  TARGET_PDB = 10_Chap5_Practice.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target quadratic
@@ -527,12 +623,12 @@ build quadratic: CXX_EXECUTABLE_LINKER__quadratic_Debug CMakeFiles/quadratic.dir
 
 build cmake_object_order_depends_target_7_Chap4: phony || CMakeFiles/7_Chap4.dir
 
-build CMakeFiles/7_Chap4.dir/7_Chap4.cpp.o: CXX_COMPILER__7_Chap4_Debug /Users/moynstain/CLionProjects/1.HelloWorld/7_Chap4.cpp || cmake_object_order_depends_target_7_Chap4
-  DEP_FILE = CMakeFiles/7_Chap4.dir/7_Chap4.cpp.o.d
+build CMakeFiles/7_Chap4.dir/cppPrimerPlus_6th_edition/7_Chap4.cpp.o: CXX_COMPILER__7_Chap4_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/7_Chap4.cpp || cmake_object_order_depends_target_7_Chap4
+  DEP_FILE = CMakeFiles/7_Chap4.dir/cppPrimerPlus_6th_edition/7_Chap4.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/7_Chap4.dir
-  OBJECT_FILE_DIR = CMakeFiles/7_Chap4.dir
+  OBJECT_FILE_DIR = CMakeFiles/7_Chap4.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -542,7 +638,7 @@ build CMakeFiles/7_Chap4.dir/7_Chap4.cpp.o: CXX_COMPILER__7_Chap4_Debug /Users/m
 #############################################
 # Link the executable 7_Chap4
 
-build 7_Chap4: CXX_EXECUTABLE_LINKER__7_Chap4_Debug CMakeFiles/7_Chap4.dir/7_Chap4.cpp.o
+build 7_Chap4: CXX_EXECUTABLE_LINKER__7_Chap4_Debug CMakeFiles/7_Chap4.dir/cppPrimerPlus_6th_edition/7_Chap4.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/7_Chap4.dir
   POST_BUILD = :
@@ -559,12 +655,12 @@ build 7_Chap4: CXX_EXECUTABLE_LINKER__7_Chap4_Debug CMakeFiles/7_Chap4.dir/7_Cha
 
 build cmake_object_order_depends_target_4_Chap2_Practice: phony || CMakeFiles/4_Chap2_Practice.dir
 
-build CMakeFiles/4_Chap2_Practice.dir/4_Chap2_Practice.cpp.o: CXX_COMPILER__4_Chap2_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/4_Chap2_Practice.cpp || cmake_object_order_depends_target_4_Chap2_Practice
-  DEP_FILE = CMakeFiles/4_Chap2_Practice.dir/4_Chap2_Practice.cpp.o.d
+build CMakeFiles/4_Chap2_Practice.dir/cppPrimerPlus_6th_edition/4_Chap2_Practice.cpp.o: CXX_COMPILER__4_Chap2_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/4_Chap2_Practice.cpp || cmake_object_order_depends_target_4_Chap2_Practice
+  DEP_FILE = CMakeFiles/4_Chap2_Practice.dir/cppPrimerPlus_6th_edition/4_Chap2_Practice.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/4_Chap2_Practice.dir
-  OBJECT_FILE_DIR = CMakeFiles/4_Chap2_Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles/4_Chap2_Practice.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -574,7 +670,7 @@ build CMakeFiles/4_Chap2_Practice.dir/4_Chap2_Practice.cpp.o: CXX_COMPILER__4_Ch
 #############################################
 # Link the executable 4_Chap2_Practice
 
-build 4_Chap2_Practice: CXX_EXECUTABLE_LINKER__4_Chap2_Practice_Debug CMakeFiles/4_Chap2_Practice.dir/4_Chap2_Practice.cpp.o
+build 4_Chap2_Practice: CXX_EXECUTABLE_LINKER__4_Chap2_Practice_Debug CMakeFiles/4_Chap2_Practice.dir/cppPrimerPlus_6th_edition/4_Chap2_Practice.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/4_Chap2_Practice.dir
   POST_BUILD = :
@@ -591,12 +687,12 @@ build 4_Chap2_Practice: CXX_EXECUTABLE_LINKER__4_Chap2_Practice_Debug CMakeFiles
 
 build cmake_object_order_depends_target_6_Chap3_Practice: phony || CMakeFiles/6_Chap3_Practice.dir
 
-build CMakeFiles/6_Chap3_Practice.dir/6_Chap3_Practice.cpp.o: CXX_COMPILER__6_Chap3_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/6_Chap3_Practice.cpp || cmake_object_order_depends_target_6_Chap3_Practice
-  DEP_FILE = CMakeFiles/6_Chap3_Practice.dir/6_Chap3_Practice.cpp.o.d
+build CMakeFiles/6_Chap3_Practice.dir/cppPrimerPlus_6th_edition/6_Chap3_Practice.cpp.o: CXX_COMPILER__6_Chap3_Practice_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/6_Chap3_Practice.cpp || cmake_object_order_depends_target_6_Chap3_Practice
+  DEP_FILE = CMakeFiles/6_Chap3_Practice.dir/cppPrimerPlus_6th_edition/6_Chap3_Practice.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/6_Chap3_Practice.dir
-  OBJECT_FILE_DIR = CMakeFiles/6_Chap3_Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles/6_Chap3_Practice.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -606,7 +702,7 @@ build CMakeFiles/6_Chap3_Practice.dir/6_Chap3_Practice.cpp.o: CXX_COMPILER__6_Ch
 #############################################
 # Link the executable 6_Chap3_Practice
 
-build 6_Chap3_Practice: CXX_EXECUTABLE_LINKER__6_Chap3_Practice_Debug CMakeFiles/6_Chap3_Practice.dir/6_Chap3_Practice.cpp.o
+build 6_Chap3_Practice: CXX_EXECUTABLE_LINKER__6_Chap3_Practice_Debug CMakeFiles/6_Chap3_Practice.dir/cppPrimerPlus_6th_edition/6_Chap3_Practice.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/6_Chap3_Practice.dir
   POST_BUILD = :
@@ -623,12 +719,12 @@ build 6_Chap3_Practice: CXX_EXECUTABLE_LINKER__6_Chap3_Practice_Debug CMakeFiles
 
 build cmake_object_order_depends_target_5_Chap3: phony || CMakeFiles/5_Chap3.dir
 
-build CMakeFiles/5_Chap3.dir/5_Chap3.cpp.o: CXX_COMPILER__5_Chap3_Debug /Users/moynstain/CLionProjects/1.HelloWorld/5_Chap3.cpp || cmake_object_order_depends_target_5_Chap3
-  DEP_FILE = CMakeFiles/5_Chap3.dir/5_Chap3.cpp.o.d
+build CMakeFiles/5_Chap3.dir/cppPrimerPlus_6th_edition/5_Chap3.cpp.o: CXX_COMPILER__5_Chap3_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/5_Chap3.cpp || cmake_object_order_depends_target_5_Chap3
+  DEP_FILE = CMakeFiles/5_Chap3.dir/cppPrimerPlus_6th_edition/5_Chap3.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/5_Chap3.dir
-  OBJECT_FILE_DIR = CMakeFiles/5_Chap3.dir
+  OBJECT_FILE_DIR = CMakeFiles/5_Chap3.dir/cppPrimerPlus_6th_edition
 
 
 # =============================================================================
@@ -638,7 +734,7 @@ build CMakeFiles/5_Chap3.dir/5_Chap3.cpp.o: CXX_COMPILER__5_Chap3_Debug /Users/m
 #############################################
 # Link the executable 5_Chap3
 
-build 5_Chap3: CXX_EXECUTABLE_LINKER__5_Chap3_Debug CMakeFiles/5_Chap3.dir/5_Chap3.cpp.o
+build 5_Chap3: CXX_EXECUTABLE_LINKER__5_Chap3_Debug CMakeFiles/5_Chap3.dir/cppPrimerPlus_6th_edition/5_Chap3.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/5_Chap3.dir
   POST_BUILD = :
@@ -711,6 +807,38 @@ build quadratic_soln: CXX_EXECUTABLE_LINKER__quadratic_soln_Debug CMakeFiles/qua
   TARGET_PDB = quadratic_soln.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target vector_list_deque
+
+
+#############################################
+# Order-only phony target for vector_list_deque
+
+build cmake_object_order_depends_target_vector_list_deque: phony || CMakeFiles/vector_list_deque.dir
+
+build CMakeFiles/vector_list_deque.dir/CS106L_Code_Example/4_containers/vector_list_deque.cpp.o: CXX_COMPILER__vector_list_deque_Debug /Users/moynstain/CLionProjects/1.HelloWorld/CS106L_Code_Example/4_containers/vector_list_deque.cpp || cmake_object_order_depends_target_vector_list_deque
+  DEP_FILE = CMakeFiles/vector_list_deque.dir/CS106L_Code_Example/4_containers/vector_list_deque.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/vector_list_deque.dir
+  OBJECT_FILE_DIR = CMakeFiles/vector_list_deque.dir/CS106L_Code_Example/4_containers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector_list_deque
+
+
+#############################################
+# Link the executable vector_list_deque
+
+build vector_list_deque: CXX_EXECUTABLE_LINKER__vector_list_deque_Debug CMakeFiles/vector_list_deque.dir/CS106L_Code_Example/4_containers/vector_list_deque.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/vector_list_deque.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = vector_list_deque
+  TARGET_PDB = vector_list_deque.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target istreams_soln
 
 
@@ -758,103 +886,103 @@ build CMakeFiles/1_HelloWorld.dir/main.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
 
-build CMakeFiles/1_HelloWorld.dir/2_getinfo.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/2_getinfo.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/2_getinfo.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/2_getinfo.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/2_getinfo.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/2_getinfo.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/3_MathFunctionCalling.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/3_MathFunctionCalling.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/3_MathFunctionCalling.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/3_MathFunctionCalling.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/3_MathFunctionCalling.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/3_MathFunctionCalling.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/4_Chap2_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/4_Chap2_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/4_Chap2_Practice.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/4_Chap2_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/4_Chap2_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/4_Chap2_Practice.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/5_Chap3.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/5_Chap3.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/5_Chap3.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/5_Chap3.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/5_Chap3.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/5_Chap3.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/6_Chap3_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/6_Chap3_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/6_Chap3_Practice.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/6_Chap3_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/6_Chap3_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/6_Chap3_Practice.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/7_Chap4.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/7_Chap4.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/7_Chap4.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/7_Chap4.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/7_Chap4.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/7_Chap4.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/8_Chap4_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/8_Chap4_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/8_Chap4_Practice.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/8_Chap4_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/8_Chap4_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/8_Chap4_Practice.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/9_Chap5.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/9_Chap5.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/9_Chap5.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/9_Chap5.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/10_Chap5_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/10_Chap5_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/10_Chap5_Practice.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/10_Chap5_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/10_Chap5_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/10_Chap5_Practice.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/11_Chap6.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/11_Chap6.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/11_Chap6.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/11_Chap6.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/11_Chap6.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/11_Chap6.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/12_Chap6_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/12_Chap6_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/12_Chap6_Practice.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/12_Chap6_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/12_Chap6_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/12_Chap6_Practice.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/13_Chap7_Function.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/13_Chap7_Function.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/13_Chap7_Function.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/13_Chap7_Function.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/13_Chap7_Function.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/13_Chap7_Function.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/14_Chap7_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/14_Chap7_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/14_Chap7_Practice.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/14_Chap7_Practice.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/14_Chap7_Practice.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/14_Chap7_Practice.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
-build CMakeFiles/1_HelloWorld.dir/15_Chap8_InlineFunc.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/15_Chap8_InlineFunc.cpp || cmake_object_order_depends_target_1_HelloWorld
-  DEP_FILE = CMakeFiles/1_HelloWorld.dir/15_Chap8_InlineFunc.cpp.o.d
+build CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/15_Chap8_InlineFunc.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/15_Chap8_InlineFunc.cpp || cmake_object_order_depends_target_1_HelloWorld
+  DEP_FILE = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/15_Chap8_InlineFunc.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition
 
 build CMakeFiles/1_HelloWorld.dir/CS106L_1_Intro_to_Cpp.cpp.o: CXX_COMPILER__1_HelloWorld_Debug /Users/moynstain/CLionProjects/1.HelloWorld/CS106L_1_Intro_to_Cpp.cpp || cmake_object_order_depends_target_1_HelloWorld
   DEP_FILE = CMakeFiles/1_HelloWorld.dir/CS106L_1_Intro_to_Cpp.cpp.o.d
@@ -871,7 +999,7 @@ build CMakeFiles/1_HelloWorld.dir/CS106L_1_Intro_to_Cpp.cpp.o: CXX_COMPILER__1_H
 #############################################
 # Link the executable 1_HelloWorld
 
-build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_HelloWorld.dir/main.cpp.o CMakeFiles/1_HelloWorld.dir/2_getinfo.cpp.o CMakeFiles/1_HelloWorld.dir/3_MathFunctionCalling.cpp.o CMakeFiles/1_HelloWorld.dir/4_Chap2_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/5_Chap3.cpp.o CMakeFiles/1_HelloWorld.dir/6_Chap3_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/7_Chap4.cpp.o CMakeFiles/1_HelloWorld.dir/8_Chap4_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o CMakeFiles/1_HelloWorld.dir/10_Chap5_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/11_Chap6.cpp.o CMakeFiles/1_HelloWorld.dir/12_Chap6_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/13_Chap7_Function.cpp.o CMakeFiles/1_HelloWorld.dir/14_Chap7_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/15_Chap8_InlineFunc.cpp.o CMakeFiles/1_HelloWorld.dir/CS106L_1_Intro_to_Cpp.cpp.o
+build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_HelloWorld.dir/main.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/2_getinfo.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/3_MathFunctionCalling.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/4_Chap2_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/5_Chap3.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/6_Chap3_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/7_Chap4.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/8_Chap4_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/9_Chap5.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/10_Chap5_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/11_Chap6.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/12_Chap6_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/13_Chap7_Function.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/14_Chap7_Practice.cpp.o CMakeFiles/1_HelloWorld.dir/cppPrimerPlus_6th_edition/15_Chap8_InlineFunc.cpp.o CMakeFiles/1_HelloWorld.dir/CS106L_1_Intro_to_Cpp.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/1_HelloWorld.dir
   POST_BUILD = :
@@ -890,7 +1018,7 @@ build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_Hello
 #############################################
 # Folder: /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
 
-build all: phony 13_Chap7_Function r_spaghetti 9_Chap5 CS106L_1_Intro_to_Cpp 2_getinfo glove_test_1 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc 8_Chap4_Practice 14_Chap7_Practice 11_Chap6 10_Chap5_Practice quadratic 7_Chap4 4_Chap2_Practice 6_Chap3_Practice 5_Chap3 istreams quadratic_soln istreams_soln 1_HelloWorld
+build all: phony chap1_carrots chap1_myfirst 10_Chap5_Practice vector_time_trials 13_Chap7_Function r_spaghetti 9_Chap5 CS106L_1_Intro_to_Cpp 2_getinfo glove_test_1 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc 8_Chap4_Practice 14_Chap7_Practice 11_Chap6 quadratic 7_Chap4 4_Chap2_Practice 6_Chap3_Practice 5_Chap3 istreams quadratic_soln vector_list_deque istreams_soln 1_HelloWorld
 
 # =============================================================================
 # Built-in targets
