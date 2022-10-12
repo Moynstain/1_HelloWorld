@@ -1,0 +1,167 @@
+[
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/main.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/main.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/main.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/2_getinfo.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/2_getinfo.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/2_getinfo.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/3_MathFunctionCalling.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/3_MathFunctionCalling.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/3_MathFunctionCalling.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/4_Chap2_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/4_Chap2_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/4_Chap2_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/5_Chap3.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/5_Chap3.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/5_Chap3.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/6_Chap3_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/6_Chap3_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/6_Chap3_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/7_Chap4.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/7_Chap4.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/7_Chap4.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/8_Chap4_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/8_Chap4_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/8_Chap4_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/9_Chap5.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/9_Chap5.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/10_Chap5_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/10_Chap5_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/10_Chap5_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/11_Chap6.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/11_Chap6.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/11_Chap6.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/12_Chap6_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/12_Chap6_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/12_Chap6_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/13_Chap7_Function.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/13_Chap7_Function.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/13_Chap7_Function.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/14_Chap7_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/14_Chap7_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/14_Chap7_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/15_Chap8_InlineFunc.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/15_Chap8_InlineFunc.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/15_Chap8_InlineFunc.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/1_HelloWorld.dir/CS106L_1_Intro_to_Cpp.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/CS106L_1_Intro_to_Cpp.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/CS106L_1_Intro_to_Cpp.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/2_getinfo.dir/2_getinfo.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/2_getinfo.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/2_getinfo.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/3_MathFunctionCalling.dir/3_MathFunctionCalling.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/3_MathFunctionCalling.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/3_MathFunctionCalling.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/4_Chap2_Practice.dir/4_Chap2_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/4_Chap2_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/4_Chap2_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/5_Chap3.dir/5_Chap3.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/5_Chap3.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/5_Chap3.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/6_Chap3_Practice.dir/6_Chap3_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/6_Chap3_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/6_Chap3_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/7_Chap4.dir/7_Chap4.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/7_Chap4.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/7_Chap4.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/8_Chap4_Practice.dir/8_Chap4_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/8_Chap4_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/8_Chap4_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/9_Chap5.dir/9_Chap5.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/9_Chap5.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/9_Chap5.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/10_Chap5_Practice.dir/10_Chap5_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/10_Chap5_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/10_Chap5_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/10_Chap5_Practice.dir/DirectoryTest/glove_test_1.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/DirectoryTest/glove_test_1.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/DirectoryTest/glove_test_1.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/11_Chap6.dir/11_Chap6.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/11_Chap6.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/11_Chap6.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/12_Chap6_Practice.dir/12_Chap6_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/12_Chap6_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/12_Chap6_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/13_Chap7_Function.dir/13_Chap7_Function.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/13_Chap7_Function.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/13_Chap7_Function.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/14_Chap7_Practice.dir/14_Chap7_Practice.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/14_Chap7_Practice.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/14_Chap7_Practice.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/15_Chap8_InlineFunc.dir/15_Chap8_InlineFunc.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/15_Chap8_InlineFunc.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/15_Chap8_InlineFunc.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/glove_test_1.dir/DirectoryTest/glove_test_1.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/DirectoryTest/glove_test_1.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/DirectoryTest/glove_test_1.cpp"
+},
+{
+  "directory": "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin21-g++-11   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/CS106L_1_Intro_to_Cpp.dir/CS106L_1_Intro_to_Cpp.cpp.o -c /Users/moynstain/CLionProjects/1.HelloWorld/CS106L_1_Intro_to_Cpp.cpp",
+  "file": "/Users/moynstain/CLionProjects/1.HelloWorld/CS106L_1_Intro_to_Cpp.cpp"
+}
+]

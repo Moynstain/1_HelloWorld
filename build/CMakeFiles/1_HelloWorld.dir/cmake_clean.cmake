@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "1_HelloWorld"
+  "1_HelloWorld.pdb"
+  "CMakeFiles/1_HelloWorld.dir/10_Chap5_Practice.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/10_Chap5_Practice.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/11_Chap6.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/11_Chap6.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/12_Chap6_Practice.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/12_Chap6_Practice.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/13_Chap7_Function.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/13_Chap7_Function.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/14_Chap7_Practice.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/14_Chap7_Practice.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/15_Chap8_InlineFunc.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/15_Chap8_InlineFunc.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/2_getinfo.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/2_getinfo.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/3_MathFunctionCalling.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/3_MathFunctionCalling.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/4_Chap2_Practice.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/4_Chap2_Practice.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/5_Chap3.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/5_Chap3.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/6_Chap3_Practice.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/6_Chap3_Practice.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/7_Chap4.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/7_Chap4.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/8_Chap4_Practice.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/8_Chap4_Practice.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/9_Chap5.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/CS106L_1_Intro_to_Cpp.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/CS106L_1_Intro_to_Cpp.cpp.o.d"
+  "CMakeFiles/1_HelloWorld.dir/main.cpp.o"
+  "CMakeFiles/1_HelloWorld.dir/main.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/1_HelloWorld.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

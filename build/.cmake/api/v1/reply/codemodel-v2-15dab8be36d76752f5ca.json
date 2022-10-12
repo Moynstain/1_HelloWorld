@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "1_HelloWorld",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "10_Chap5_Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10_Chap5_Practice-Debug-8b0c874b9678b114059c.json",
+					"name" : "10_Chap5_Practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11_Chap6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11_Chap6-Debug-92a13d4d5e3bebd8764b.json",
+					"name" : "11_Chap6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12_Chap6_Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12_Chap6_Practice-Debug-d92fe88272e83a7a0ee2.json",
+					"name" : "12_Chap6_Practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "13_Chap7_Function::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-13_Chap7_Function-Debug-2ba50f07f902801ca87c.json",
+					"name" : "13_Chap7_Function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "14_Chap7_Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-14_Chap7_Practice-Debug-4cb374893ee9ed1224ce.json",
+					"name" : "14_Chap7_Practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "15_Chap8_InlineFunc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-15_Chap8_InlineFunc-Debug-43b9a48e28ff34841939.json",
+					"name" : "15_Chap8_InlineFunc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1_HelloWorld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_HelloWorld-Debug-6b9161a85d041a398252.json",
+					"name" : "1_HelloWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_getinfo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_getinfo-Debug-5acc8dc0e60eef19b487.json",
+					"name" : "2_getinfo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3_MathFunctionCalling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3_MathFunctionCalling-Debug-fb5855c759d883da37bb.json",
+					"name" : "3_MathFunctionCalling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_Chap2_Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_Chap2_Practice-Debug-a133f728046b656f1136.json",
+					"name" : "4_Chap2_Practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "5_Chap3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-5_Chap3-Debug-2693f82f86f0de17f914.json",
+					"name" : "5_Chap3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "6_Chap3_Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-6_Chap3_Practice-Debug-27b75b01c56cf1b37c3d.json",
+					"name" : "6_Chap3_Practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7_Chap4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7_Chap4-Debug-1765ebecbd5a170417b9.json",
+					"name" : "7_Chap4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "8_Chap4_Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-8_Chap4_Practice-Debug-e3f7dc959f238e095877.json",
+					"name" : "8_Chap4_Practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "9_Chap5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-9_Chap5-Debug-c5305947c2539d7e7915.json",
+					"name" : "9_Chap5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CS106L_1_Intro_to_Cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CS106L_1_Intro_to_Cpp-Debug-ae92a4e2f066d23a38f4.json",
+					"name" : "CS106L_1_Intro_to_Cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glove_test_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glove_test_1-Debug-3406856358d349ed03df.json",
+					"name" : "glove_test_1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/moynstain/CLionProjects/1.HelloWorld/build",
+		"source" : "/Users/moynstain/CLionProjects/1.HelloWorld"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
