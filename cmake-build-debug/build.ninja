@@ -52,6 +52,134 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target chap1_convert
+
+
+#############################################
+# Order-only phony target for chap1_convert
+
+build cmake_object_order_depends_target_chap1_convert: phony || CMakeFiles/chap1_convert.dir
+
+build CMakeFiles/chap1_convert.dir/cppPrimerPlus_6th_edition/Chap1/chap1_convert.cpp.o: CXX_COMPILER__chap1_convert_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap1/chap1_convert.cpp || cmake_object_order_depends_target_chap1_convert
+  DEP_FILE = CMakeFiles/chap1_convert.dir/cppPrimerPlus_6th_edition/Chap1/chap1_convert.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap1_convert.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap1_convert.dir/cppPrimerPlus_6th_edition/Chap1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap1_convert
+
+
+#############################################
+# Link the executable chap1_convert
+
+build chap1_convert: CXX_EXECUTABLE_LINKER__chap1_convert_Debug CMakeFiles/chap1_convert.dir/cppPrimerPlus_6th_edition/Chap1/chap1_convert.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap1_convert.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap1_convert
+  TARGET_PDB = chap1_convert.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap1_ourfunc
+
+
+#############################################
+# Order-only phony target for chap1_ourfunc
+
+build cmake_object_order_depends_target_chap1_ourfunc: phony || CMakeFiles/chap1_ourfunc.dir
+
+build CMakeFiles/chap1_ourfunc.dir/cppPrimerPlus_6th_edition/Chap1/chap1_ourfunc.cpp.o: CXX_COMPILER__chap1_ourfunc_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap1/chap1_ourfunc.cpp || cmake_object_order_depends_target_chap1_ourfunc
+  DEP_FILE = CMakeFiles/chap1_ourfunc.dir/cppPrimerPlus_6th_edition/Chap1/chap1_ourfunc.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap1_ourfunc.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap1_ourfunc.dir/cppPrimerPlus_6th_edition/Chap1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap1_ourfunc
+
+
+#############################################
+# Link the executable chap1_ourfunc
+
+build chap1_ourfunc: CXX_EXECUTABLE_LINKER__chap1_ourfunc_Debug CMakeFiles/chap1_ourfunc.dir/cppPrimerPlus_6th_edition/Chap1/chap1_ourfunc.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap1_ourfunc.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap1_ourfunc
+  TARGET_PDB = chap1_ourfunc.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap1_sqrt
+
+
+#############################################
+# Order-only phony target for chap1_sqrt
+
+build cmake_object_order_depends_target_chap1_sqrt: phony || CMakeFiles/chap1_sqrt.dir
+
+build CMakeFiles/chap1_sqrt.dir/cppPrimerPlus_6th_edition/Chap1/chap1_sqrt.cpp.o: CXX_COMPILER__chap1_sqrt_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap1/chap1_sqrt.cpp || cmake_object_order_depends_target_chap1_sqrt
+  DEP_FILE = CMakeFiles/chap1_sqrt.dir/cppPrimerPlus_6th_edition/Chap1/chap1_sqrt.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap1_sqrt.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap1_sqrt.dir/cppPrimerPlus_6th_edition/Chap1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap1_sqrt
+
+
+#############################################
+# Link the executable chap1_sqrt
+
+build chap1_sqrt: CXX_EXECUTABLE_LINKER__chap1_sqrt_Debug CMakeFiles/chap1_sqrt.dir/cppPrimerPlus_6th_edition/Chap1/chap1_sqrt.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap1_sqrt.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap1_sqrt
+  TARGET_PDB = chap1_sqrt.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap1_getinfo
+
+
+#############################################
+# Order-only phony target for chap1_getinfo
+
+build cmake_object_order_depends_target_chap1_getinfo: phony || CMakeFiles/chap1_getinfo.dir
+
+build CMakeFiles/chap1_getinfo.dir/cppPrimerPlus_6th_edition/Chap1/chap1_getinfo.cpp.o: CXX_COMPILER__chap1_getinfo_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap1/chap1_getinfo.cpp || cmake_object_order_depends_target_chap1_getinfo
+  DEP_FILE = CMakeFiles/chap1_getinfo.dir/cppPrimerPlus_6th_edition/Chap1/chap1_getinfo.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap1_getinfo.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap1_getinfo.dir/cppPrimerPlus_6th_edition/Chap1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap1_getinfo
+
+
+#############################################
+# Link the executable chap1_getinfo
+
+build chap1_getinfo: CXX_EXECUTABLE_LINKER__chap1_getinfo_Debug CMakeFiles/chap1_getinfo.dir/cppPrimerPlus_6th_edition/Chap1/chap1_getinfo.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap1_getinfo.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap1_getinfo
+  TARGET_PDB = chap1_getinfo.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target chap1_carrots
 
 
@@ -1018,7 +1146,7 @@ build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_Hello
 #############################################
 # Folder: /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
 
-build all: phony chap1_carrots chap1_myfirst 10_Chap5_Practice vector_time_trials 13_Chap7_Function r_spaghetti 9_Chap5 CS106L_1_Intro_to_Cpp 2_getinfo glove_test_1 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc 8_Chap4_Practice 14_Chap7_Practice 11_Chap6 quadratic 7_Chap4 4_Chap2_Practice 6_Chap3_Practice 5_Chap3 istreams quadratic_soln vector_list_deque istreams_soln 1_HelloWorld
+build all: phony chap1_convert chap1_ourfunc chap1_sqrt chap1_getinfo chap1_carrots chap1_myfirst 10_Chap5_Practice vector_time_trials 13_Chap7_Function r_spaghetti 9_Chap5 CS106L_1_Intro_to_Cpp 2_getinfo glove_test_1 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc 8_Chap4_Practice 14_Chap7_Practice 11_Chap6 quadratic 7_Chap4 4_Chap2_Practice 6_Chap3_Practice 5_Chap3 istreams quadratic_soln vector_list_deque istreams_soln 1_HelloWorld
 
 # =============================================================================
 # Built-in targets

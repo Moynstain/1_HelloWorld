@@ -1,4 +1,8 @@
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap1_convert.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap1_ourfunc.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap1_sqrt.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap1_getinfo.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap1_carrots.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap1_myfirst.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/10_Chap5_Practice.dir

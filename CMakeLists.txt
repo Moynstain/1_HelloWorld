@@ -32,3 +32,7 @@ add_executable(vector_time_trials CS106L_Code_Example/4_containers/vector_time_t
 add_executable(vector_list_deque CS106L_Code_Example/4_containers/vector_list_deque.cpp)
 add_executable(chap1_myfirst cppPrimerPlus_6th_edition/Chap1/chap1_myfirst.cpp)
 add_executable(chap1_carrots cppPrimerPlus_6th_edition/Chap1/chap1_carrots.cpp)
+add_executable(chap1_getinfo cppPrimerPlus_6th_edition/Chap1/chap1_getinfo.cpp)
+add_executable(chap1_sqrt cppPrimerPlus_6th_edition/Chap1/chap1_sqrt.cpp)
+add_executable(chap1_ourfunc cppPrimerPlus_6th_edition/Chap1/chap1_ourfunc.cpp)
+add_executable(chap1_convert cppPrimerPlus_6th_edition/Chap1/chap1_convert.cpp)
