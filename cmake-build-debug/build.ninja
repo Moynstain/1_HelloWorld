@@ -52,6 +52,102 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target chap3_floatnum
+
+
+#############################################
+# Order-only phony target for chap3_floatnum
+
+build cmake_object_order_depends_target_chap3_floatnum: phony || CMakeFiles/chap3_floatnum.dir
+
+build CMakeFiles/chap3_floatnum.dir/cppPrimerPlus_6th_edition/Chap3/chap3_floatnum.cpp.o: CXX_COMPILER__chap3_floatnum_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap3/chap3_floatnum.cpp || cmake_object_order_depends_target_chap3_floatnum
+  DEP_FILE = CMakeFiles/chap3_floatnum.dir/cppPrimerPlus_6th_edition/Chap3/chap3_floatnum.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap3_floatnum.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap3_floatnum.dir/cppPrimerPlus_6th_edition/Chap3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap3_floatnum
+
+
+#############################################
+# Link the executable chap3_floatnum
+
+build chap3_floatnum: CXX_EXECUTABLE_LINKER__chap3_floatnum_Debug CMakeFiles/chap3_floatnum.dir/cppPrimerPlus_6th_edition/Chap3/chap3_floatnum.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap3_floatnum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap3_floatnum
+  TARGET_PDB = chap3_floatnum.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap3_chartype
+
+
+#############################################
+# Order-only phony target for chap3_chartype
+
+build cmake_object_order_depends_target_chap3_chartype: phony || CMakeFiles/chap3_chartype.dir
+
+build CMakeFiles/chap3_chartype.dir/cppPrimerPlus_6th_edition/Chap3/chap3_chartype.cpp.o: CXX_COMPILER__chap3_chartype_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap3/chap3_chartype.cpp || cmake_object_order_depends_target_chap3_chartype
+  DEP_FILE = CMakeFiles/chap3_chartype.dir/cppPrimerPlus_6th_edition/Chap3/chap3_chartype.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap3_chartype.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap3_chartype.dir/cppPrimerPlus_6th_edition/Chap3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap3_chartype
+
+
+#############################################
+# Link the executable chap3_chartype
+
+build chap3_chartype: CXX_EXECUTABLE_LINKER__chap3_chartype_Debug CMakeFiles/chap3_chartype.dir/cppPrimerPlus_6th_edition/Chap3/chap3_chartype.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap3_chartype.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap3_chartype
+  TARGET_PDB = chap3_chartype.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap3_hexoct
+
+
+#############################################
+# Order-only phony target for chap3_hexoct
+
+build cmake_object_order_depends_target_chap3_hexoct: phony || CMakeFiles/chap3_hexoct.dir
+
+build CMakeFiles/chap3_hexoct.dir/cppPrimerPlus_6th_edition/Chap3/chap3_hexoct.cpp.o: CXX_COMPILER__chap3_hexoct_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap3/chap3_hexoct.cpp || cmake_object_order_depends_target_chap3_hexoct
+  DEP_FILE = CMakeFiles/chap3_hexoct.dir/cppPrimerPlus_6th_edition/Chap3/chap3_hexoct.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap3_hexoct.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap3_hexoct.dir/cppPrimerPlus_6th_edition/Chap3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap3_hexoct
+
+
+#############################################
+# Link the executable chap3_hexoct
+
+build chap3_hexoct: CXX_EXECUTABLE_LINKER__chap3_hexoct_Debug CMakeFiles/chap3_hexoct.dir/cppPrimerPlus_6th_edition/Chap3/chap3_hexoct.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap3_hexoct.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap3_hexoct
+  TARGET_PDB = chap3_hexoct.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target chap1_convert
 
 
@@ -517,6 +613,38 @@ build glove_test_1: CXX_EXECUTABLE_LINKER__glove_test_1_Debug CMakeFiles/glove_t
   PRE_LINK = :
   TARGET_FILE = glove_test_1
   TARGET_PDB = glove_test_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap3_bondini
+
+
+#############################################
+# Order-only phony target for chap3_bondini
+
+build cmake_object_order_depends_target_chap3_bondini: phony || CMakeFiles/chap3_bondini.dir
+
+build CMakeFiles/chap3_bondini.dir/cppPrimerPlus_6th_edition/Chap3/chap3_bondini.cpp.o: CXX_COMPILER__chap3_bondini_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap3/chap3_bondini.cpp || cmake_object_order_depends_target_chap3_bondini
+  DEP_FILE = CMakeFiles/chap3_bondini.dir/cppPrimerPlus_6th_edition/Chap3/chap3_bondini.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap3_bondini.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap3_bondini.dir/cppPrimerPlus_6th_edition/Chap3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap3_bondini
+
+
+#############################################
+# Link the executable chap3_bondini
+
+build chap3_bondini: CXX_EXECUTABLE_LINKER__chap3_bondini_Debug CMakeFiles/chap3_bondini.dir/cppPrimerPlus_6th_edition/Chap3/chap3_bondini.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap3_bondini.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap3_bondini
+  TARGET_PDB = chap3_bondini.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 3_MathFunctionCalling
@@ -1146,7 +1274,7 @@ build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_Hello
 #############################################
 # Folder: /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
 
-build all: phony chap1_convert chap1_ourfunc chap1_sqrt chap1_getinfo chap1_carrots chap1_myfirst 10_Chap5_Practice vector_time_trials 13_Chap7_Function r_spaghetti 9_Chap5 CS106L_1_Intro_to_Cpp 2_getinfo glove_test_1 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc 8_Chap4_Practice 14_Chap7_Practice 11_Chap6 quadratic 7_Chap4 4_Chap2_Practice 6_Chap3_Practice 5_Chap3 istreams quadratic_soln vector_list_deque istreams_soln 1_HelloWorld
+build all: phony chap3_floatnum chap3_chartype chap3_hexoct chap1_convert chap1_ourfunc chap1_sqrt chap1_getinfo chap1_carrots chap1_myfirst 10_Chap5_Practice vector_time_trials 13_Chap7_Function r_spaghetti 9_Chap5 CS106L_1_Intro_to_Cpp 2_getinfo glove_test_1 chap3_bondini 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc 8_Chap4_Practice 14_Chap7_Practice 11_Chap6 quadratic 7_Chap4 4_Chap2_Practice 6_Chap3_Practice 5_Chap3 istreams quadratic_soln vector_list_deque istreams_soln 1_HelloWorld
 
 # =============================================================================
 # Built-in targets
