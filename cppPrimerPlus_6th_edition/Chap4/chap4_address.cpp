@@ -11,7 +11,23 @@ int main(){
 
     cout << "donuts value = " << donuts << endl;
     cout << "donuts address = " << &donuts << endl;
+    cout << strcmp("char", "char") << endl;
+
+    /// test EOF
+    char ch;
+
+    cout << "Type a char: \n";
+    ch = cin.get();
+    cout << ch;
+    while (ch != EOF){
+        cout << "test func cout.put(): \n";
+        cout.put(ch);
+        cout << endl;
+        ch = cin.get();
+        cout << "test cout: \n";
+        cout << ch << endl;
 
 
+    }
     return 0;
 }
