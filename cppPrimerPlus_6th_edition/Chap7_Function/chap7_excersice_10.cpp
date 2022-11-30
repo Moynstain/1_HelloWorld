@@ -21,8 +21,8 @@ int main(){
     double x, y;
     int cal;
     while (cin >> x >> y >> cal){
+        cout << "Result = " << calculate(x, y, cal_ptr[cal - 1]) << endl;
         cout << "insert two double numbers and choose a calculate function (1~4): \n";
-        cout << "Result = " << calculate(x, y, cal_ptr[cal + 1]) << endl;
     }
     cout << "Done.\n";
     return 0;
