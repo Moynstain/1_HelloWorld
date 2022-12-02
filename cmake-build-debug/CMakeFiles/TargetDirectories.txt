@@ -1,4 +1,7 @@
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap8_filefunc.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap8_strquote.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap8_struct_ref.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap8_var_ref.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap8_inline_function.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/rebuild_cache.dir
@@ -20,6 +23,7 @@
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap8_swaps.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap7_ruler.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap6_ifelse.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap8_cubes.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap4_ptrstr.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap3_chartype.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap5_nested.dir
@@ -50,6 +54,7 @@
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/12_Chap6_Practice.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/15_Chap8_InlineFunc.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap6_cinfish.dir
+/Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/chap8_left.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/6_Chap3_Practice.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/quadratic.dir
 /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug/CMakeFiles/8_Chap4_Practice.dir

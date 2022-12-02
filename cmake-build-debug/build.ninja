@@ -52,6 +52,102 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target chap8_filefunc
+
+
+#############################################
+# Order-only phony target for chap8_filefunc
+
+build cmake_object_order_depends_target_chap8_filefunc: phony || CMakeFiles/chap8_filefunc.dir
+
+build CMakeFiles/chap8_filefunc.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_filefunc.cpp.o: CXX_COMPILER__chap8_filefunc_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_filefunc.cpp || cmake_object_order_depends_target_chap8_filefunc
+  DEP_FILE = CMakeFiles/chap8_filefunc.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_filefunc.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap8_filefunc.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap8_filefunc.dir/cppPrimerPlus_6th_edition/Chap8_More_Function
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap8_filefunc
+
+
+#############################################
+# Link the executable chap8_filefunc
+
+build chap8_filefunc: CXX_EXECUTABLE_LINKER__chap8_filefunc_Debug CMakeFiles/chap8_filefunc.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_filefunc.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap8_filefunc.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap8_filefunc
+  TARGET_PDB = chap8_filefunc.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap8_strquote
+
+
+#############################################
+# Order-only phony target for chap8_strquote
+
+build cmake_object_order_depends_target_chap8_strquote: phony || CMakeFiles/chap8_strquote.dir
+
+build CMakeFiles/chap8_strquote.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_strquote.cpp.o: CXX_COMPILER__chap8_strquote_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_strquote.cpp || cmake_object_order_depends_target_chap8_strquote
+  DEP_FILE = CMakeFiles/chap8_strquote.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_strquote.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap8_strquote.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap8_strquote.dir/cppPrimerPlus_6th_edition/Chap8_More_Function
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap8_strquote
+
+
+#############################################
+# Link the executable chap8_strquote
+
+build chap8_strquote: CXX_EXECUTABLE_LINKER__chap8_strquote_Debug CMakeFiles/chap8_strquote.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_strquote.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap8_strquote.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap8_strquote
+  TARGET_PDB = chap8_strquote.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap8_struct_ref
+
+
+#############################################
+# Order-only phony target for chap8_struct_ref
+
+build cmake_object_order_depends_target_chap8_struct_ref: phony || CMakeFiles/chap8_struct_ref.dir
+
+build CMakeFiles/chap8_struct_ref.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_struct_ref.cpp.o: CXX_COMPILER__chap8_struct_ref_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_struct_ref.cpp || cmake_object_order_depends_target_chap8_struct_ref
+  DEP_FILE = CMakeFiles/chap8_struct_ref.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_struct_ref.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap8_struct_ref.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap8_struct_ref.dir/cppPrimerPlus_6th_edition/Chap8_More_Function
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap8_struct_ref
+
+
+#############################################
+# Link the executable chap8_struct_ref
+
+build chap8_struct_ref: CXX_EXECUTABLE_LINKER__chap8_struct_ref_Debug CMakeFiles/chap8_struct_ref.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_struct_ref.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap8_struct_ref.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap8_struct_ref
+  TARGET_PDB = chap8_struct_ref.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target chap8_var_ref
 
 
@@ -702,6 +798,38 @@ build chap6_ifelse: CXX_EXECUTABLE_LINKER__chap6_ifelse_Debug CMakeFiles/chap6_i
   PRE_LINK = :
   TARGET_FILE = chap6_ifelse
   TARGET_PDB = chap6_ifelse.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap8_cubes
+
+
+#############################################
+# Order-only phony target for chap8_cubes
+
+build cmake_object_order_depends_target_chap8_cubes: phony || CMakeFiles/chap8_cubes.dir
+
+build CMakeFiles/chap8_cubes.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_cubes.cpp.o: CXX_COMPILER__chap8_cubes_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_cubes.cpp || cmake_object_order_depends_target_chap8_cubes
+  DEP_FILE = CMakeFiles/chap8_cubes.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_cubes.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap8_cubes.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap8_cubes.dir/cppPrimerPlus_6th_edition/Chap8_More_Function
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap8_cubes
+
+
+#############################################
+# Link the executable chap8_cubes
+
+build chap8_cubes: CXX_EXECUTABLE_LINKER__chap8_cubes_Debug CMakeFiles/chap8_cubes.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_cubes.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap8_cubes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap8_cubes
+  TARGET_PDB = chap8_cubes.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target chap4_ptrstr
@@ -1671,6 +1799,38 @@ build chap6_cinfish: CXX_EXECUTABLE_LINKER__chap6_cinfish_Debug CMakeFiles/chap6
   TARGET_PDB = chap6_cinfish.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target chap8_left
+
+
+#############################################
+# Order-only phony target for chap8_left
+
+build cmake_object_order_depends_target_chap8_left: phony || CMakeFiles/chap8_left.dir
+
+build CMakeFiles/chap8_left.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_left.cpp.o: CXX_COMPILER__chap8_left_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_left.cpp || cmake_object_order_depends_target_chap8_left
+  DEP_FILE = CMakeFiles/chap8_left.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_left.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld
+  OBJECT_DIR = CMakeFiles/chap8_left.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap8_left.dir/cppPrimerPlus_6th_edition/Chap8_More_Function
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap8_left
+
+
+#############################################
+# Link the executable chap8_left
+
+build chap8_left: CXX_EXECUTABLE_LINKER__chap8_left_Debug CMakeFiles/chap8_left.dir/cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_left.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap8_left.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap8_left
+  TARGET_PDB = chap8_left.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 6_Chap3_Practice
 
 
@@ -2170,7 +2330,7 @@ build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_Hello
 #############################################
 # Folder: /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
 
-build all: phony chap8_var_ref chap8_inline_function chap7_arr_func_pt chap7_arrobj chap7_strgback chap7_strgfunc chap7_arrfunc3 chap7_excersice_10 chap6_cingolf chap6_switch chap3_bondini chap6_not vector_time_trials chap4_delete chap7_func_ptr chap4_new chap3_floatnum chap8_swaps chap7_ruler chap6_ifelse chap4_ptrstr chap3_chartype chap5_nested chap4_pointer chap3_hexoct chap1_convert chap7_atrctfun chap1_ourfunc chap4_address chap1_sqrt 14_Chap7_Practice chap1_getinfo 2_getinfo chap1_carrots chap1_myfirst chap4_structur 10_Chap5_Practice 13_Chap7_Function r_spaghetti chap7_recur chap6_jump 11_Chap6 9_Chap5 CS106L_1_Intro_to_Cpp istreams_soln glove_test_1 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc chap6_cinfish 6_Chap3_Practice quadratic 8_Chap4_Practice chap6_if 7_Chap4 chap7_lotto 4_Chap2_Practice 5_Chap3 istreams quadratic_soln vector_list_deque 1_HelloWorld
+build all: phony chap8_filefunc chap8_strquote chap8_struct_ref chap8_var_ref chap8_inline_function chap7_arr_func_pt chap7_arrobj chap7_strgback chap7_strgfunc chap7_arrfunc3 chap7_excersice_10 chap6_cingolf chap6_switch chap3_bondini chap6_not vector_time_trials chap4_delete chap7_func_ptr chap4_new chap3_floatnum chap8_swaps chap7_ruler chap6_ifelse chap8_cubes chap4_ptrstr chap3_chartype chap5_nested chap4_pointer chap3_hexoct chap1_convert chap7_atrctfun chap1_ourfunc chap4_address chap1_sqrt 14_Chap7_Practice chap1_getinfo 2_getinfo chap1_carrots chap1_myfirst chap4_structur 10_Chap5_Practice 13_Chap7_Function r_spaghetti chap7_recur chap6_jump 11_Chap6 9_Chap5 CS106L_1_Intro_to_Cpp istreams_soln glove_test_1 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc chap6_cinfish chap8_left 6_Chap3_Practice quadratic 8_Chap4_Practice chap6_if 7_Chap4 chap7_lotto 4_Chap2_Practice 5_Chap3 istreams quadratic_soln vector_list_deque 1_HelloWorld
 
 # =============================================================================
 # Built-in targets
