@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(1_HelloWorld main.cpp cppPrimerPlus_6th_edition/2_getinfo.cpp cppPrimerPlus_6th_edition/3_MathFunctionCalling.cpp cppPrimerPlus_6th_edition/4_Chap2_Practice.cpp cppPrimerPlus_6th_edition/5_Chap3.cpp cppPrimerPlus_6th_edition/6_Chap3_Practice.cpp cppPrimerPlus_6th_edition/7_Chap4.cpp cppPrimerPlus_6th_edition/8_Chap4_Practice.cpp cppPrimerPlus_6th_edition/9_Chap5.cpp cppPrimerPlus_6th_edition/10_Chap5_Practice.cpp cppPrimerPlus_6th_edition/11_Chap6.cpp cppPrimerPlus_6th_edition/12_Chap6_Practice.cpp cppPrimerPlus_6th_edition/13_Chap7_Function.cpp cppPrimerPlus_6th_edition/14_Chap7_Practice.cpp cppPrimerPlus_6th_edition/15_Chap8_InlineFunc.cpp CS106L_1_Intro_to_Cpp.cpp)
 include_directories(/Users/moynstain/CLionProjects/1.HelloWorld)
-include_directories(/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/include)
-link_directories(/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/include)
+
+#link_directories(/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/include)
 
 add_executable(2_getinfo cppPrimerPlus_6th_edition/2_getinfo.cpp)
 add_executable(3_MathFunctionCalling cppPrimerPlus_6th_edition/3_MathFunctionCalling.cpp)
@@ -16,7 +16,7 @@ add_executable(6_Chap3_Practice cppPrimerPlus_6th_edition/6_Chap3_Practice.cpp)
 add_executable(7_Chap4 cppPrimerPlus_6th_edition/7_Chap4.cpp)
 add_executable(8_Chap4_Practice cppPrimerPlus_6th_edition/8_Chap4_Practice.cpp)
 add_executable(9_Chap5 cppPrimerPlus_6th_edition/9_Chap5.cpp)
-add_executable(10_Chap5_Practice cppPrimerPlus_6th_edition/10_Chap5_Practice.cpp DirectoryTest/glove_test_1.cpp)
+add_executable(10_Chap5_Practice cppPrimerPlus_6th_edition/10_Chap5_Practice.cpp DirectoryTest/glove_test_1.cpp cppPrimerPlus_6th_edition/Chap9_Header_File/file/file_func.cpp)
 add_executable(11_Chap6 cppPrimerPlus_6th_edition/11_Chap6.cpp)
 add_executable(12_Chap6_Practice cppPrimerPlus_6th_edition/12_Chap6_Practice.cpp)
 add_executable(13_Chap7_Function cppPrimerPlus_6th_edition/13_Chap7_Function.cpp)
@@ -79,5 +79,16 @@ add_executable(chap8_leftover cppPrimerPlus_6th_edition/Chap8_More_Function/chap
 add_executable(chap8_funtemp cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_funtemp.cpp)
 add_executable(chap8_choices cppPrimerPlus_6th_edition/Chap8_More_Function/chap8_choices.cpp)
 
-add_subdirectory(cppPrimerPlus_6th_edition/Chap9_Header_File/chap9_file)
-add_executable(chap9_file cppPrimerPlus_6th_edition/Chap9_Header_File/chap9_file/chap9_file1.cpp)
+
+add_executable(chap9_file_main cppPrimerPlus_6th_edition/Chap9_Header_File/chap9_file_main.cpp
+        cppPrimerPlus_6th_edition/Chap9_Header_File/chap9_file2_func.cpp
+        cppPrimerPlus_6th_edition/Chap9_Header_File/chap9_namesp_main.cpp)
+# add_executable(chap9_file2 cppPrimerPlus_6th_edition/Chap9_Header_File/chap9_file2.cpp)
+include_directories(/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file)
+aux_source_directory(cppPrimerPlus_6th_edition/Chap9_Header_File/file FILE_FUNC)
+add_executable(file_main cppPrimerPlus_6th_edition/Chap9_Header_File/file/file_main.cpp ${FILE_FUNC})
+
+
+add_executable(chap9_newplace cppPrimerPlus_6th_edition/Chap9_Header_File/chap9_newplace.cpp)
+add_executable(chap9_namesp cppPrimerPlus_6th_edition/Chap9_Header_File/chap9_namesp.cpp cppPrimerPlus_6th_edition/Chap9_Header_File/chap9_namesp_main.cpp)
+add_executable(chap10_stock00 cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock00.cpp)
