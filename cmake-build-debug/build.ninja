@@ -52,6 +52,45 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target chap10_stock10
+
+
+#############################################
+# Order-only phony target for chap10_stock10
+
+build cmake_object_order_depends_target_chap10_stock10: phony || CMakeFiles/chap10_stock10.dir
+
+build CMakeFiles/chap10_stock10.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock10.cpp.o: CXX_COMPILER__chap10_stock10_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock10.cpp || cmake_object_order_depends_target_chap10_stock10
+  DEP_FILE = CMakeFiles/chap10_stock10.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock10.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld -I/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file
+  OBJECT_DIR = CMakeFiles/chap10_stock10.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap10_stock10.dir/cppPrimerPlus_6th_edition/Chap10_Class
+
+build CMakeFiles/chap10_stock10.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock10_main.cpp.o: CXX_COMPILER__chap10_stock10_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock10_main.cpp || cmake_object_order_depends_target_chap10_stock10
+  DEP_FILE = CMakeFiles/chap10_stock10.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock10_main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld -I/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file
+  OBJECT_DIR = CMakeFiles/chap10_stock10.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap10_stock10.dir/cppPrimerPlus_6th_edition/Chap10_Class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap10_stock10
+
+
+#############################################
+# Link the executable chap10_stock10
+
+build chap10_stock10: CXX_EXECUTABLE_LINKER__chap10_stock10_Debug CMakeFiles/chap10_stock10.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock10.cpp.o CMakeFiles/chap10_stock10.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock10_main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap10_stock10.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap10_stock10
+  TARGET_PDB = chap10_stock10.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target file_main
 
 
@@ -580,6 +619,13 @@ build CMakeFiles/chap10_stock00.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap1
   OBJECT_DIR = CMakeFiles/chap10_stock00.dir
   OBJECT_FILE_DIR = CMakeFiles/chap10_stock00.dir/cppPrimerPlus_6th_edition/Chap10_Class
 
+build CMakeFiles/chap10_stock00.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock00_main.cpp.o: CXX_COMPILER__chap10_stock00_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock00_main.cpp || cmake_object_order_depends_target_chap10_stock00
+  DEP_FILE = CMakeFiles/chap10_stock00.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock00_main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld -I/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file
+  OBJECT_DIR = CMakeFiles/chap10_stock00.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap10_stock00.dir/cppPrimerPlus_6th_edition/Chap10_Class
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target chap10_stock00
@@ -588,7 +634,7 @@ build CMakeFiles/chap10_stock00.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap1
 #############################################
 # Link the executable chap10_stock00
 
-build chap10_stock00: CXX_EXECUTABLE_LINKER__chap10_stock00_Debug CMakeFiles/chap10_stock00.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock00.cpp.o
+build chap10_stock00: CXX_EXECUTABLE_LINKER__chap10_stock00_Debug CMakeFiles/chap10_stock00.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock00.cpp.o CMakeFiles/chap10_stock00.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stock00_main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/chap10_stock00.dir
   POST_BUILD = :
@@ -1459,6 +1505,45 @@ build chap1_getinfo: CXX_EXECUTABLE_LINKER__chap1_getinfo_Debug CMakeFiles/chap1
   PRE_LINK = :
   TARGET_FILE = chap1_getinfo
   TARGET_PDB = chap1_getinfo.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap10_stack
+
+
+#############################################
+# Order-only phony target for chap10_stack
+
+build cmake_object_order_depends_target_chap10_stack: phony || CMakeFiles/chap10_stack.dir
+
+build CMakeFiles/chap10_stack.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stack.cpp.o: CXX_COMPILER__chap10_stack_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stack.cpp || cmake_object_order_depends_target_chap10_stack
+  DEP_FILE = CMakeFiles/chap10_stack.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stack.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld -I/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file
+  OBJECT_DIR = CMakeFiles/chap10_stack.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap10_stack.dir/cppPrimerPlus_6th_edition/Chap10_Class
+
+build CMakeFiles/chap10_stack.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stacker_main.cpp.o: CXX_COMPILER__chap10_stack_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stacker_main.cpp || cmake_object_order_depends_target_chap10_stack
+  DEP_FILE = CMakeFiles/chap10_stack.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stacker_main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld -I/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file
+  OBJECT_DIR = CMakeFiles/chap10_stack.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap10_stack.dir/cppPrimerPlus_6th_edition/Chap10_Class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap10_stack
+
+
+#############################################
+# Link the executable chap10_stack
+
+build chap10_stack: CXX_EXECUTABLE_LINKER__chap10_stack_Debug CMakeFiles/chap10_stack.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stack.cpp.o CMakeFiles/chap10_stack.dir/cppPrimerPlus_6th_edition/Chap10_Class/chap10_stacker_main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap10_stack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap10_stack
+  TARGET_PDB = chap10_stack.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2_getinfo
@@ -2621,7 +2706,7 @@ build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_Hello
 #############################################
 # Folder: /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
 
-build all: phony file_main chap9_file_main chap8_choices chap8_funtemp chap9_newplace chap8_filefunc chap8_strquote chap8_struct_ref chap8_var_ref chap8_inline_function chap7_arr_func_pt chap7_arrobj chap7_strgback chap7_strgfunc chap7_arrfunc3 chap10_stock00 chap7_excersice_10 chap6_cingolf chap6_switch chap3_bondini chap6_not vector_time_trials chap4_delete chap8_leftover chap7_func_ptr chap4_new chap3_floatnum chap8_swaps chap7_ruler chap6_ifelse chap8_cubes chap4_ptrstr chap3_chartype chap5_nested chap4_pointer chap3_hexoct chap1_convert chap7_atrctfun chap1_ourfunc chap4_address chap1_sqrt 14_Chap7_Practice chap1_getinfo 2_getinfo chap1_carrots chap1_myfirst chap4_structur 10_Chap5_Practice 13_Chap7_Function r_spaghetti chap7_recur chap6_jump 11_Chap6 9_Chap5 CS106L_1_Intro_to_Cpp istreams_soln glove_test_1 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc chap6_cinfish chap9_namesp chap8_left 6_Chap3_Practice quadratic 8_Chap4_Practice chap6_if 7_Chap4 chap7_lotto 4_Chap2_Practice 5_Chap3 istreams quadratic_soln vector_list_deque 1_HelloWorld
+build all: phony chap10_stock10 file_main chap9_file_main chap8_choices chap8_funtemp chap9_newplace chap8_filefunc chap8_strquote chap8_struct_ref chap8_var_ref chap8_inline_function chap7_arr_func_pt chap7_arrobj chap7_strgback chap7_strgfunc chap7_arrfunc3 chap10_stock00 chap7_excersice_10 chap6_cingolf chap6_switch chap3_bondini chap6_not vector_time_trials chap4_delete chap8_leftover chap7_func_ptr chap4_new chap3_floatnum chap8_swaps chap7_ruler chap6_ifelse chap8_cubes chap4_ptrstr chap3_chartype chap5_nested chap4_pointer chap3_hexoct chap1_convert chap7_atrctfun chap1_ourfunc chap4_address chap1_sqrt 14_Chap7_Practice chap1_getinfo chap10_stack 2_getinfo chap1_carrots chap1_myfirst chap4_structur 10_Chap5_Practice 13_Chap7_Function r_spaghetti chap7_recur chap6_jump 11_Chap6 9_Chap5 CS106L_1_Intro_to_Cpp istreams_soln glove_test_1 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc chap6_cinfish chap9_namesp chap8_left 6_Chap3_Practice quadratic 8_Chap4_Practice chap6_if 7_Chap4 chap7_lotto 4_Chap2_Practice 5_Chap3 istreams quadratic_soln vector_list_deque 1_HelloWorld
 
 # =============================================================================
 # Built-in targets

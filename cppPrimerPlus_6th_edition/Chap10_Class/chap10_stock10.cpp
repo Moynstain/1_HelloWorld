@@ -3,24 +3,42 @@
 //
 
 #include "iostream"
-#include "chap10_stock00.h"
+#include "chap10_stock10.h"
 
 using std::cin;
 using std::cout;
 using std::endl;
 
-void Stock::acquire(const std::string &co, long n, double pr) {
+
+/// constructors
+Stock::Stock() {
+    cout << "Default constructor called:\n";
+    company = "Default Name";
+    shares = 0;
+    share_val = 0.0;
+    total_val = 0.0;
+}
+
+Stock::Stock(const std::string &co, long n, double pr) {
+    cout << "Constructor using <" << co << "> called.\n";
     company = co;
+
     if (n < 0){
         cout << "Number of shares can't be negative. <" << company << "> shares set to 0.\n";
         shares = 0;
-    } else {
+    } else{
         shares = n;
     }
     share_val = pr;
     set_tot();
 }
 
+/// noisy destructor
+Stock::~Stock() {
+    cout << "Destructor called. No <" << company << "> anymore.\n";
+}
+
+/// other methods
 void Stock::buy(long num, double price) {
     if (num < 0){
         cout << "Number of shares purchased can't be negative. Transaction aborted.\n";
