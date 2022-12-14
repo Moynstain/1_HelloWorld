@@ -52,6 +52,84 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target chap11_mytime1
+
+
+#############################################
+# Order-only phony target for chap11_mytime1
+
+build cmake_object_order_depends_target_chap11_mytime1: phony || CMakeFiles/chap11_mytime1.dir
+
+build CMakeFiles/chap11_mytime1.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime1.cpp.o: CXX_COMPILER__chap11_mytime1_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime1.cpp || cmake_object_order_depends_target_chap11_mytime1
+  DEP_FILE = CMakeFiles/chap11_mytime1.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld -I/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file
+  OBJECT_DIR = CMakeFiles/chap11_mytime1.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap11_mytime1.dir/cppPrimerPlus_6th_edition/Chap11_More_Class
+
+build CMakeFiles/chap11_mytime1.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime1_main.cpp.o: CXX_COMPILER__chap11_mytime1_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime1_main.cpp || cmake_object_order_depends_target_chap11_mytime1
+  DEP_FILE = CMakeFiles/chap11_mytime1.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime1_main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld -I/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file
+  OBJECT_DIR = CMakeFiles/chap11_mytime1.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap11_mytime1.dir/cppPrimerPlus_6th_edition/Chap11_More_Class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap11_mytime1
+
+
+#############################################
+# Link the executable chap11_mytime1
+
+build chap11_mytime1: CXX_EXECUTABLE_LINKER__chap11_mytime1_Debug CMakeFiles/chap11_mytime1.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime1.cpp.o CMakeFiles/chap11_mytime1.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime1_main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap11_mytime1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap11_mytime1
+  TARGET_PDB = chap11_mytime1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap11_mytime0
+
+
+#############################################
+# Order-only phony target for chap11_mytime0
+
+build cmake_object_order_depends_target_chap11_mytime0: phony || CMakeFiles/chap11_mytime0.dir
+
+build CMakeFiles/chap11_mytime0.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime0.cpp.o: CXX_COMPILER__chap11_mytime0_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime0.cpp || cmake_object_order_depends_target_chap11_mytime0
+  DEP_FILE = CMakeFiles/chap11_mytime0.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime0.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld -I/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file
+  OBJECT_DIR = CMakeFiles/chap11_mytime0.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap11_mytime0.dir/cppPrimerPlus_6th_edition/Chap11_More_Class
+
+build CMakeFiles/chap11_mytime0.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime0_main.cpp.o: CXX_COMPILER__chap11_mytime0_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime0_main.cpp || cmake_object_order_depends_target_chap11_mytime0
+  DEP_FILE = CMakeFiles/chap11_mytime0.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime0_main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld -I/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file
+  OBJECT_DIR = CMakeFiles/chap11_mytime0.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap11_mytime0.dir/cppPrimerPlus_6th_edition/Chap11_More_Class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap11_mytime0
+
+
+#############################################
+# Link the executable chap11_mytime0
+
+build chap11_mytime0: CXX_EXECUTABLE_LINKER__chap11_mytime0_Debug CMakeFiles/chap11_mytime0.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime0.cpp.o CMakeFiles/chap11_mytime0.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_mytime0_main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap11_mytime0.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap11_mytime0
+  TARGET_PDB = chap11_mytime0.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target chap10_stock10
 
 
@@ -89,6 +167,45 @@ build chap10_stock10: CXX_EXECUTABLE_LINKER__chap10_stock10_Debug CMakeFiles/cha
   PRE_LINK = :
   TARGET_FILE = chap10_stock10
   TARGET_PDB = chap10_stock10.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chap11_vector_func
+
+
+#############################################
+# Order-only phony target for chap11_vector_func
+
+build cmake_object_order_depends_target_chap11_vector_func: phony || CMakeFiles/chap11_vector_func.dir
+
+build CMakeFiles/chap11_vector_func.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_vector_func.cpp.o: CXX_COMPILER__chap11_vector_func_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_vector_func.cpp || cmake_object_order_depends_target_chap11_vector_func
+  DEP_FILE = CMakeFiles/chap11_vector_func.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_vector_func.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld -I/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file
+  OBJECT_DIR = CMakeFiles/chap11_vector_func.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap11_vector_func.dir/cppPrimerPlus_6th_edition/Chap11_More_Class
+
+build CMakeFiles/chap11_vector_func.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_vector_main.cpp.o: CXX_COMPILER__chap11_vector_func_Debug /Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_vector_main.cpp || cmake_object_order_depends_target_chap11_vector_func
+  DEP_FILE = CMakeFiles/chap11_vector_func.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_vector_main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  INCLUDES = -I/Users/moynstain/CLionProjects/1.HelloWorld -I/Users/moynstain/CLionProjects/1.HelloWorld/cppPrimerPlus_6th_edition/Chap9_Header_File/file
+  OBJECT_DIR = CMakeFiles/chap11_vector_func.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap11_vector_func.dir/cppPrimerPlus_6th_edition/Chap11_More_Class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chap11_vector_func
+
+
+#############################################
+# Link the executable chap11_vector_func
+
+build chap11_vector_func: CXX_EXECUTABLE_LINKER__chap11_vector_func_Debug CMakeFiles/chap11_vector_func.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_vector_func.cpp.o CMakeFiles/chap11_vector_func.dir/cppPrimerPlus_6th_edition/Chap11_More_Class/chap11_vector_main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/chap11_vector_func.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chap11_vector_func
+  TARGET_PDB = chap11_vector_func.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target file_main
@@ -2706,7 +2823,7 @@ build 1_HelloWorld: CXX_EXECUTABLE_LINKER__1_HelloWorld_Debug CMakeFiles/1_Hello
 #############################################
 # Folder: /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
 
-build all: phony chap10_stock10 file_main chap9_file_main chap8_choices chap8_funtemp chap9_newplace chap8_filefunc chap8_strquote chap8_struct_ref chap8_var_ref chap8_inline_function chap7_arr_func_pt chap7_arrobj chap7_strgback chap7_strgfunc chap7_arrfunc3 chap10_stock00 chap7_excersice_10 chap6_cingolf chap6_switch chap3_bondini chap6_not vector_time_trials chap4_delete chap8_leftover chap7_func_ptr chap4_new chap3_floatnum chap8_swaps chap7_ruler chap6_ifelse chap8_cubes chap4_ptrstr chap3_chartype chap5_nested chap4_pointer chap3_hexoct chap1_convert chap7_atrctfun chap1_ourfunc chap4_address chap1_sqrt 14_Chap7_Practice chap1_getinfo chap10_stack 2_getinfo chap1_carrots chap1_myfirst chap4_structur 10_Chap5_Practice 13_Chap7_Function r_spaghetti chap7_recur chap6_jump 11_Chap6 9_Chap5 CS106L_1_Intro_to_Cpp istreams_soln glove_test_1 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc chap6_cinfish chap9_namesp chap8_left 6_Chap3_Practice quadratic 8_Chap4_Practice chap6_if 7_Chap4 chap7_lotto 4_Chap2_Practice 5_Chap3 istreams quadratic_soln vector_list_deque 1_HelloWorld
+build all: phony chap11_mytime1 chap11_mytime0 chap10_stock10 chap11_vector_func file_main chap9_file_main chap8_choices chap8_funtemp chap9_newplace chap8_filefunc chap8_strquote chap8_struct_ref chap8_var_ref chap8_inline_function chap7_arr_func_pt chap7_arrobj chap7_strgback chap7_strgfunc chap7_arrfunc3 chap10_stock00 chap7_excersice_10 chap6_cingolf chap6_switch chap3_bondini chap6_not vector_time_trials chap4_delete chap8_leftover chap7_func_ptr chap4_new chap3_floatnum chap8_swaps chap7_ruler chap6_ifelse chap8_cubes chap4_ptrstr chap3_chartype chap5_nested chap4_pointer chap3_hexoct chap1_convert chap7_atrctfun chap1_ourfunc chap4_address chap1_sqrt 14_Chap7_Practice chap1_getinfo chap10_stack 2_getinfo chap1_carrots chap1_myfirst chap4_structur 10_Chap5_Practice 13_Chap7_Function r_spaghetti chap7_recur chap6_jump 11_Chap6 9_Chap5 CS106L_1_Intro_to_Cpp istreams_soln glove_test_1 3_MathFunctionCalling 12_Chap6_Practice 15_Chap8_InlineFunc chap6_cinfish chap9_namesp chap8_left 6_Chap3_Practice quadratic 8_Chap4_Practice chap6_if 7_Chap4 chap7_lotto 4_Chap2_Practice 5_Chap3 istreams quadratic_soln vector_list_deque 1_HelloWorld
 
 # =============================================================================
 # Built-in targets
