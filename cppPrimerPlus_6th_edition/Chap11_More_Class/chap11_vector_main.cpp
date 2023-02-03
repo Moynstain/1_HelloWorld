@@ -21,7 +21,9 @@ int main(){
     double dstep;
 
     ofstream fout;
+    ifstream file_write;
     fout.open("the_walk.txt");
+    file_write.open("the_walk.txt", ios::out | ios::in);
     cout << "Enter a target distance (q to quit): \n";
     while (cin >> target){
         cout << "Enter step length: \n";
@@ -33,6 +35,7 @@ int main(){
             step.reset(dstep, direction, VECTOR::Vector::POL);
             result = result + step;
             fout << result << endl;
+            // file_write << result << endl;
             steps++;
         }
         cout << "After " << steps << " steps, the subject has the following location:\n";
@@ -45,6 +48,7 @@ int main(){
         cout << "Enter target distance (q to quit): \n";
     }
     cout << "Done.\n";
+    fout.close();
     cin.clear();
     while (cin.get() != '\n'){
         continue;
