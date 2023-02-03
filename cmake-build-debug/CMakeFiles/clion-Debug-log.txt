@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/moynstain/CLionProjects/1.HelloWorld -B /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
+/home/moynstain/Downloads/clion-2022.3.2/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/moynstain/Downloads/clion-2022.3.2/bin/ninja/linux/aarch64/ninja -G Ninja -S /home/moynstain/Documents/1_personal_dev/1_HelloWorld -B /home/moynstain/Documents/1_personal_dev/1_HelloWorld/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/moynstain/CLionProjects/1.HelloWorld/cmake-build-debug
+-- Build files have been written to: /home/moynstain/Documents/1_personal_dev/1_HelloWorld/cmake-build-debug
